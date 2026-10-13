@@ -1,7 +1,7 @@
 /*
  * Fifteen-minute talk: seven demos, with short early-access and avatar-protocol explanations.
  * Model names and early-access experience are supplied by Ben Weekes.
- * Three videos are awaiting delivery; clips stay at two minutes or less.
+ * Two videos are awaiting delivery; the running order and final timings remain flexible.
  * Edit this file to change content, media paths, and speaker notes.
  */
 window.DECK = {
@@ -146,13 +146,14 @@ window.DECK = {
       "id": "avatar-comparison",
       "type": "video",
       "label": "Avatars & vendor comparison",
-      "kicker": "DEMO 03 / 07 · AVATARS",
+      "kicker": "DEMO 03 / 07 · AVATARS · ENGLISH → CHINESE",
       "title": "Avatars & vendor comparison",
-      "caption": "Avatars & vendor comparison",
-      "src": "",
-      "poster": "",
+      "caption": "Six avatar vendors: English then Chinese",
+      "src": "media/avatar-comparison.mp4",
+      "poster": "media/avatar-comparison-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — up to 2 minutes; to be supplied.\n\nSuggested introduction: The protocol opens up vendor choice. This comparison looks at avatar appearance, motion, voice and responsiveness.\n\nAdd the comparison video when Ben shares it. Confirm the vendor names and comparison conditions from that video; no vendor rankings are asserted in this draft."
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here are six avatar vendors side by side, first in English, then in Chinese. Watch the lip sync, expression and motion.\n\nPress K once: 15 seconds of English switches directly to 15 seconds of Chinese. The full six-vendor grid and its Vendor 1–6 labels are preserved.\n\nEnglish source excerpt: 00:01.20–00:16.20. Chinese source excerpt: 00:01.80–00:16.80. The cuts retain the opening speech; the English ends in a pause and the Chinese ends at a pause. A language label sits above the grid, and a short audio fade smooths each excerpt end. Full originals are preserved separately.\n\nThe provided comparison labels vendors by number. Review the visible lip sync and motion; no vendor rankings or measured latency claims are added. Use G to jump to another demo if you choose to skip a section.",
+      "durationSeconds": 30.0
     },
     {
       "id": "avatar-gaming",
@@ -211,7 +212,7 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: the four supplied clips total about 6 minutes 10 seconds. With three remaining clips at two minutes each, videos total about 12 minutes 10 seconds. Opening and closing take 40 seconds, the two explanation slides take 40 seconds, and seven 10-second video introductions take 70 seconds. Total: about 14 minutes 40 seconds, leaving 20 seconds for transitions. Shorter future clips provide more speaking time."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Five demo clips are ready, including the 30-second bilingual comparison. With the two remaining demos estimated at two minutes each, the current sequence is about 13 minutes 10 seconds. Use G to jump past any section during the presentation."
     }
   ]
 };

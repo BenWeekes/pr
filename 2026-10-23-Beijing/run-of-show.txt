@@ -4,6 +4,8 @@ Ben Weekes — Chief Architect, Agora — iRTE 2026
 Format: mostly demo videos, with two short explanations to connect the story.
 Playback is manual. Use K to play/pause and arrows to advance.
 Suggested introductions are in Notes (N).
+The sequence is a working draft: review the visuals and flow first, then
+choose the final slides and timings. Use G to jump directly to another demo.
 
 SEQUENCE
 
@@ -15,7 +17,8 @@ SEQUENCE
 4. GPT-Live: full duplex & delegation — 10-second intro + supplied 2-minute clip
 5. Generic Avatar Protocol — 20 seconds
    ConvoAI speech → avatar provider → audio + video in an Agora channel.
-6. Avatars & vendor comparison — 10-second intro + video, up to 2 minutes
+6. Avatars & vendor comparison — 10-second intro + 30-second bilingual reel
+   15 seconds of English, then 15 seconds of Chinese, without another click.
 7. Avatar-assisted gaming — 10-second intro + supplied excerpt, about 2 minutes
    An interactive, voice controlled game hosted by an avatar on Agora ConvoAI.
 8. Avatars presenting a TV lottery — 10-second intro + supplied 1:58 excerpt
@@ -23,24 +26,22 @@ SEQUENCE
 10. AI commentary — 10-second intro + video, up to 2 minutes; work in progress
 11. Closing — 20 seconds
 
-TIME BUDGET
+DRAFT TIMING
 
-Available: 15 minutes (900 seconds).
-The four supplied clips total about 6 minutes 10 seconds.
-At 2 minutes each, the three remaining clips add 6 minutes.
-Video time: about 12 minutes 10 seconds.
+Target: 15 minutes. These timings are estimates, not a fixed running order.
+The five ready demo clips total about 6 minutes 40 seconds.
+The two remaining clips are currently estimated at 2 minutes each.
+Video time: about 10 minutes 40 seconds.
 Opening + closing: 40 seconds.
 Early-access + protocol explanations: 40 seconds.
 Seven video introductions at 10 seconds each: 70 seconds.
-Total: about 14 minutes 40 seconds, leaving 20 seconds for transitions.
-Shorter future clips give more space for introductions and explanation.
-Update final pacing as videos arrive; keep the two explanation slides brief.
+Current sequence: about 13 minutes 10 seconds.
+Finalize the speaking time and slide selection after reviewing the demos.
 
 VIDEOS STILL TO BE SUPPLIED
 
-Avatar vendor comparison, card-dealing avatars, and AI commentary. The last
-two stay marked as work in progress. Add each video to media/ and set its
-src and poster in slides.js. No comparison scores or vendor rankings are invented.
+Card-dealing avatars and AI commentary. Both stay marked as work in
+progress. Add each video to media/ and set its src and poster in slides.js.
 
 EARLY-ACCESS SLIDE
 
@@ -89,11 +90,16 @@ The cut starts in a speech pause, skips part of the opening countdown, and
 retains the draw and displayed results. Both excerpts stay under two minutes
 and use H.264/AAC at their original resolution; gaming is encoded at 30 fps.
 
-All four videos are hosted locally, with audio and native controls. Google Drive
-is only the source; presenting does not require opening Drive. Original files
+Vendor comparison: one 30-second reel made from English 00:01.20–00:16.20
+and Chinese 00:01.80–00:16.80. It retains the opening speech and full vendor
+grid, with language labels above it. No extra click is needed at the 15-second
+switch. H.264/AAC at 30 fps; a 60 ms audio fade smooths each excerpt end.
+
+All five demo clips are hosted locally, with audio and native controls.
+Presenting does not require opening Drive or the original demo site. Original files
 are preserved outside the public checkout in:
     /home/ubuntu/pr-original-media/2026-10-23-Beijing/
-Their Drive links and delivered-file hashes are recorded in media/sources.json.
+Source URLs, excerpt ranges, and file hashes are recorded in media/sources.json.
 
 RECORD WORDING
 

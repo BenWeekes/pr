@@ -25,9 +25,11 @@ The original RTE2026.pptx is preserved in templates/. Its dark palette,
 pixel background, conference logo, and bilingual styling are reused in
 2026-10-23-Beijing/. That deck is a 15-minute talk with an opening, seven
 video slots, two brief slides on early access and avatar integration,
-and a closing. Four videos are included: MrBeast on Whatnot, GPT-Live with
-delegation, avatar-assisted gaming, and an avatar TV lottery presenter.
-Three videos are awaiting delivery.
+and a closing. Five demo clips are included: MrBeast on Whatnot, GPT-Live
+with delegation, a bilingual avatar vendor comparison, avatar-assisted
+gaming, and an avatar TV lottery presenter. Two videos are awaiting delivery.
+The sequence is a working draft; review the visuals and flow before choosing
+the final slides and timings.
 The date and location come from slide 3 of the PowerPoint; update the
 folder, catalog entry, and slides.js if necessary. Pacing and media source
 details are in the presentation's run-of-show.txt and media/sources.json.
@@ -72,7 +74,7 @@ Optional: poster: "media/demo-01.jpg", captions: "media/demo-01.vtt".
 Use H.264 video and AAC audio in MP4 for broad browser compatibility.
 Videos have native controls and pause when changing slides or blanking
 the screen. Duplicate video slides for more clips. Keep clips within the
-talk's time budget. This talk uses clips of two minutes or less.
+talk's time budget when choosing the final presentation sequence.
 
 For a content slide, set image to a relative path in assets/ or media/
 and set imageAlt to describe the visual. Media paths are relative to the
