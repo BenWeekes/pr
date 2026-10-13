@@ -1,7 +1,7 @@
 /*
  * Fifteen-minute talk: seven demos, with short early-access and avatar-protocol explanations.
  * Model names and early-access experience are supplied by Ben Weekes.
- * Two videos are awaiting delivery; the running order and final timings remain flexible.
+ * One video is awaiting delivery; the running order and final timings remain flexible.
  * Edit this file to change content, media paths, and speaker notes.
  */
 window.DECK = {
@@ -198,13 +198,14 @@ window.DECK = {
       "id": "ai-commentary",
       "type": "video",
       "label": "AI commentary · WIP",
-      "kicker": "DEMO 07 / 07 · WORK IN PROGRESS",
+      "kicker": "DEMO 07 / 07 · WORK IN PROGRESS · ENGLISH → CHINESE",
       "title": "AI commentary",
-      "caption": "AI commentary",
-      "src": "",
-      "poster": "",
+      "caption": "AI football commentary: English then Chinese",
+      "src": "media/ai-commentary.mp4",
+      "poster": "media/ai-commentary-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — up to 2 minutes; to be supplied.\n\nSuggested introduction: Second, AI commentary: exploring how to turn live events into relevant, naturally paced narration.\n\nAdd the AI commentary video when supplied. Keep this explicitly framed as work in progress."
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here is AI football commentary, first in English and then in Chinese. This is still work in progress.\n\nPress K once: 15 seconds of English switches directly to 15 seconds of Chinese. The language label changes at the switch; the football footage and score graphics are preserved.\n\nExact requested source cuts: English 01:33–01:48, then Chinese 01:48–02:03. The picture follows the football sequence continuously across the language switch. A 60 ms audio fade smooths each excerpt end. Full five-minute originals are preserved separately.\n\nKeep this framed as work in progress. The final running order and timings remain flexible; use G to jump to another section.",
+      "durationSeconds": 30.0
     },
     {
       "id": "thanks",
@@ -212,7 +213,7 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Five demo clips are ready, including the 30-second bilingual comparison. With the two remaining demos estimated at two minutes each, the current sequence is about 13 minutes 10 seconds. Use G to jump past any section during the presentation."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Six demo clips are ready, including the bilingual vendor comparison and AI commentary reels. With the remaining card-dealing demo estimated at two minutes, the current sequence is about 11 minutes 40 seconds. Use G to jump past any section during the presentation."
     }
   ]
 };

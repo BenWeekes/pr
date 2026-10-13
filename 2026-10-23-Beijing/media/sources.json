@@ -76,5 +76,39 @@
         "outputEndSeconds": 30
       }
     ]
+  },
+  {
+    "file": "ai-commentary.mp4",
+    "durationSeconds": 30.0,
+    "bytes": 16022858,
+    "sha256": "bb2d823e6a50531ab902c8e89fc5381d9308cf5a0cb23ec870e26bd4a425d9c0",
+    "encoding": "H.264 video at 25 fps, AAC audio; MP4 with fast-start metadata",
+    "edit": "Exact requested 15-second excerpts, English then Chinese; continuous football footage with a language label above it; 60 ms audio fade at each excerpt end",
+    "segments": [
+      {
+        "language": "English",
+        "sourceUrl": "https://sa-dev.agora.io/experiments/ai_commentator/modelE_trialr2_4_tv/modelE_en.mp4#t=93",
+        "originalFilename": "modelE_en.mp4",
+        "originalDurationSeconds": 300,
+        "originalBytes": 135460380,
+        "originalSha256": "d3976494338b92f03c0946fac08595a9f28830fa0a9f3c8a830e45de769c194b",
+        "excerptStartSeconds": 93,
+        "excerptEndSeconds": 108,
+        "outputStartSeconds": 0,
+        "outputEndSeconds": 15
+      },
+      {
+        "language": "Chinese",
+        "sourceUrl": "https://sa-dev.agora.io/experiments/ai_commentator/modelE_trialr2_4_tv/modelE_zh_CN.mp4#t=108",
+        "originalFilename": "modelE_zh_CN.mp4",
+        "originalDurationSeconds": 300,
+        "originalBytes": 135536356,
+        "originalSha256": "a78567db1224f946a871e19a3035103a827915661ae96a947c1b13916c481fbc",
+        "excerptStartSeconds": 108,
+        "excerptEndSeconds": 123,
+        "outputStartSeconds": 15,
+        "outputEndSeconds": 30
+      }
+    ]
   }
 ]

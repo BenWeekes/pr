@@ -23,25 +23,26 @@ SEQUENCE
    An interactive, voice controlled game hosted by an avatar on Agora ConvoAI.
 8. Avatars presenting a TV lottery — 10-second intro + supplied 1:58 excerpt
 9. Card-dealing avatars — 10-second intro + video, up to 2 minutes; work in progress
-10. AI commentary — 10-second intro + video, up to 2 minutes; work in progress
+10. AI commentary — 10-second intro + 30-second bilingual reel; work in progress
+    English 01:33–01:48, then Chinese 01:48–02:03, without another click.
 11. Closing — 20 seconds
 
 DRAFT TIMING
 
 Target: 15 minutes. These timings are estimates, not a fixed running order.
-The five ready demo clips total about 6 minutes 40 seconds.
-The two remaining clips are currently estimated at 2 minutes each.
-Video time: about 10 minutes 40 seconds.
+The six ready demo clips total about 7 minutes 10 seconds.
+The remaining card-dealing clip is currently estimated at 2 minutes.
+Video time: about 9 minutes 10 seconds.
 Opening + closing: 40 seconds.
 Early-access + protocol explanations: 40 seconds.
 Seven video introductions at 10 seconds each: 70 seconds.
-Current sequence: about 13 minutes 10 seconds.
+Current sequence: about 11 minutes 40 seconds.
 Finalize the speaking time and slide selection after reviewing the demos.
 
 VIDEOS STILL TO BE SUPPLIED
 
-Card-dealing avatars and AI commentary. Both stay marked as work in
-progress. Add each video to media/ and set its src and poster in slides.js.
+Card-dealing avatars. Keep the work-in-progress label and add the video
+to media/, then set its src and poster in slides.js.
 
 EARLY-ACCESS SLIDE
 
@@ -95,7 +96,12 @@ and Chinese 00:01.80–00:16.80. It retains the opening speech and full vendor
 grid, with language labels above it. No extra click is needed at the 15-second
 switch. H.264/AAC at 30 fps; a 60 ms audio fade smooths each excerpt end.
 
-All five demo clips are hosted locally, with audio and native controls.
+AI commentary: one 30-second reel from the exact requested English
+01:33–01:48 and Chinese 01:48–02:03 excerpts. The football picture continues
+across the language switch. Language labels sit above the uncropped footage;
+a 60 ms audio fade smooths each excerpt end. H.264/AAC at the source 25 fps.
+
+All six demo clips are hosted locally, with audio and native controls.
 Presenting does not require opening Drive or the original demo site. Original files
 are preserved outside the public checkout in:
     /home/ubuntu/pr-original-media/2026-10-23-Beijing/
