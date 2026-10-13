@@ -65,6 +65,7 @@
     const section = el("section", `slide slide-${slide.type}`);
     section.dataset.slideId = slide.id;
     if (slide.portrait) section.classList.add("portrait-video");
+    if (slide.type === "video" && slide.subtitle) section.classList.add("has-subtitle");
     section.setAttribute("aria-label", `${index + 1}. ${slide.label}`);
     if (thumbnail) section.setAttribute("aria-hidden", "true");
     if (["title", "section", "qa", "thanks"].includes(slide.type)) section.classList.add("artwork");

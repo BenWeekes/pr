@@ -1,7 +1,7 @@
 /*
  * Fifteen-minute talk: seven demos, with short early-access and avatar-protocol explanations.
  * Model names and early-access experience are supplied by Ben Weekes.
- * Five videos are awaiting delivery; clips stay at two minutes or less.
+ * Three videos are awaiting delivery; clips stay at two minutes or less.
  * Edit this file to change content, media paths, and speaker notes.
  */
 window.DECK = {
@@ -161,10 +161,12 @@ window.DECK = {
       "kicker": "DEMO 04 / 07 · GAMING",
       "title": "Avatar-assisted gaming",
       "caption": "Avatar-assisted gaming",
-      "src": "",
-      "poster": "",
+      "src": "media/avatar-gaming.mp4",
+      "poster": "media/avatar-gaming-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — up to 2 minutes; to be supplied.\n\nSuggested introduction: Next, avatar-assisted gaming. Watch how the avatar participates in the game and interacts with the player.\n\nAdd the gaming video when supplied."
+      "notes": "INTRO — about 10 seconds. VIDEO — about 2 minutes.\n\nSuggested introduction: This is an interactive game controlled by voice and hosted by an avatar, running on Agora's Conversational AI platform.\n\nThe supplied Wheel of Quizzing demo shows the avatar hosting the game, the wheel choosing categories, and the player score progressing.\n\nPresentation excerpt: 00:19.35 to the end of the 2:19 original, beginning in a speech pause. This keeps the interaction and final score while meeting the two-minute clip limit. The full original is preserved separately.",
+      "durationSeconds": 119.785,
+      "subtitle": "An interactive game controlled by voice and hosted by an avatar · Agora ConvoAI"
     },
     {
       "id": "avatar-tv-lottery",
@@ -173,10 +175,11 @@ window.DECK = {
       "kicker": "DEMO 05 / 07 · BROADCAST",
       "title": "Avatars presenting a TV lottery",
       "caption": "Avatar TV lottery presenter",
-      "src": "",
-      "poster": "",
+      "src": "media/avatar-tv-lottery.mp4",
+      "poster": "media/avatar-tv-lottery-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — up to 2 minutes; to be supplied.\n\nSuggested introduction: Here is an avatar presenting a TV lottery. Watch the delivery, timing and continuity of its on-screen performance.\n\nAdd the TV lottery video when supplied. Confirm the broadcaster and any deployment claims from the supplied material."
+      "notes": "INTRO — about 10 seconds. VIDEO — about 1 minute 58 seconds.\n\nSuggested introduction: Here is an avatar presenting a TV lottery. Watch the delivery, timing and continuity of its on-screen performance.\n\nPresentation excerpt: 00:36.80 to the end of the 2:35 original, beginning in a speech pause. It skips part of the opening countdown and keeps the draw and displayed results. The full original is preserved separately.",
+      "durationSeconds": 117.781
     },
     {
       "id": "card-dealing-avatars",
@@ -208,7 +211,7 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: at the longest planned clip lengths, videos total about 12 minutes 13 seconds. Opening and closing take 40 seconds, the two new explanation slides take 40 seconds, and seven 10-second video introductions take 70 seconds. Total: about 14 minutes 43 seconds, leaving 17 seconds for transitions. Shorter future clips provide more speaking time."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: the four supplied clips total about 6 minutes 10 seconds. With three remaining clips at two minutes each, videos total about 12 minutes 10 seconds. Opening and closing take 40 seconds, the two explanation slides take 40 seconds, and seven 10-second video introductions take 70 seconds. Total: about 14 minutes 40 seconds, leaving 20 seconds for transitions. Shorter future clips provide more speaking time."
     }
   ]
 };

@@ -18,5 +18,29 @@
     "bytes": 11932844,
     "sha256": "996ba7f0becda74c8777b7a09aa9c9fda8fe89ace148d2df303eaa784b1dbd1f",
     "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
+  },
+  {
+    "file": "avatar-gaming.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/1tC_-buc4dVkGQNTX7E3Kr46Yiqku4ULG/view",
+    "originalFilename": "quiz-wheel.mov",
+    "originalDurationSeconds": 139.117667,
+    "excerptStartSeconds": 19.35,
+    "excerptEndSeconds": 139.117667,
+    "durationSeconds": 119.785,
+    "bytes": 19143318,
+    "sha256": "e6684dca4cd24fcd5ea29bd6c826946fa559ee912e66762b7496dc23fdd7f1c9",
+    "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
+  },
+  {
+    "file": "avatar-tv-lottery.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/1l_nsFgn_PiOcpKKmkUIKdQk5_-ebamUy/view",
+    "originalFilename": "lotto-gina-v2.mp4",
+    "originalDurationSeconds": 154.55,
+    "excerptStartSeconds": 36.8,
+    "excerptEndSeconds": 154.55,
+    "durationSeconds": 117.781,
+    "bytes": 33797898,
+    "sha256": "05db6dfaf0da5bc48a1190e8aba74f40b04ab5b68564f7ceaffce2120591887d",
+    "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
   }
 ]

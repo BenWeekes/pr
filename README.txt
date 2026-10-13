@@ -25,8 +25,9 @@ The original RTE2026.pptx is preserved in templates/. Its dark palette,
 pixel background, conference logo, and bilingual styling are reused in
 2026-10-23-Beijing/. That deck is a 15-minute talk with an opening, seven
 video slots, two brief slides on early access and avatar integration,
-and a closing. Two videos are included: MrBeast on
-Whatnot and GPT-Live with delegation. Five videos are awaiting delivery.
+and a closing. Four videos are included: MrBeast on Whatnot, GPT-Live with
+delegation, avatar-assisted gaming, and an avatar TV lottery presenter.
+Three videos are awaiting delivery.
 The date and location come from slide 3 of the PowerPoint; update the
 folder, catalog entry, and slides.js if necessary. Pacing and media source
 details are in the presentation's run-of-show.txt and media/sources.json.

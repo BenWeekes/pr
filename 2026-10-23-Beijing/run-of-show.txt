@@ -16,8 +16,9 @@ SEQUENCE
 5. Generic Avatar Protocol — 20 seconds
    ConvoAI speech → avatar provider → audio + video in an Agora channel.
 6. Avatars & vendor comparison — 10-second intro + video, up to 2 minutes
-7. Avatar-assisted gaming — 10-second intro + video, up to 2 minutes
-8. Avatars presenting a TV lottery — 10-second intro + video, up to 2 minutes
+7. Avatar-assisted gaming — 10-second intro + supplied excerpt, about 2 minutes
+   An interactive, voice controlled game hosted by an avatar on Agora ConvoAI.
+8. Avatars presenting a TV lottery — 10-second intro + supplied 1:58 excerpt
 9. Card-dealing avatars — 10-second intro + video, up to 2 minutes; work in progress
 10. AI commentary — 10-second intro + video, up to 2 minutes; work in progress
 11. Closing — 20 seconds
@@ -25,22 +26,21 @@ SEQUENCE
 TIME BUDGET
 
 Available: 15 minutes (900 seconds).
-The two supplied clips total about 2 minutes 13 seconds.
-At 2 minutes each, the five remaining clips add 10 minutes.
-Video time: about 12 minutes 13 seconds.
+The four supplied clips total about 6 minutes 10 seconds.
+At 2 minutes each, the three remaining clips add 6 minutes.
+Video time: about 12 minutes 10 seconds.
 Opening + closing: 40 seconds.
 Early-access + protocol explanations: 40 seconds.
 Seven video introductions at 10 seconds each: 70 seconds.
-Total: about 14 minutes 43 seconds, leaving 17 seconds for transitions.
+Total: about 14 minutes 40 seconds, leaving 20 seconds for transitions.
 Shorter future clips give more space for introductions and explanation.
 Update final pacing as videos arrive; keep the two explanation slides brief.
 
 VIDEOS STILL TO BE SUPPLIED
 
-Avatar vendor comparison, avatar-assisted gaming, TV lottery presenter,
-card-dealing avatars, and AI commentary. The last two stay marked as
-work in progress. Add each video to media/ and set its src and poster
-in slides.js. No comparison scores or vendor rankings are invented.
+Avatar vendor comparison, card-dealing avatars, and AI commentary. The last
+two stay marked as work in progress. Add each video to media/ and set its
+src and poster in slides.js. No comparison scores or vendor rankings are invented.
 
 EARLY-ACCESS SLIDE
 
@@ -82,7 +82,14 @@ browser playback. Kept at two minutes, at its original 1920 x 1036 resolution,
 with H.264 video at 30 fps and AAC audio. The terminal output remains visible
 because it demonstrates the saved trip plan. This is not an airline booking.
 
-Both videos are hosted locally, with audio and native controls. Google Drive
+Gaming: excerpt from 00:19.35 to the end of quiz-wheel.mov (2:19 original).
+The cut starts in a speech pause and retains the game interaction and score.
+Lottery: excerpt from 00:36.80 to the end of lotto-gina-v2.mp4 (2:35 original).
+The cut starts in a speech pause, skips part of the opening countdown, and
+retains the draw and displayed results. Both excerpts stay under two minutes
+and use H.264/AAC at their original resolution; gaming is encoded at 30 fps.
+
+All four videos are hosted locally, with audio and native controls. Google Drive
 is only the source; presenting does not require opening Drive. Original files
 are preserved outside the public checkout in:
     /home/ubuntu/pr-original-media/2026-10-23-Beijing/

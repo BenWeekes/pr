@@ -125,6 +125,8 @@ button svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke
 .slide-video .slide-header .kicker { font-size: 20px; }
 .video-frame { position: absolute; left: 90px; top: 212px; width: 1420px; height: 606px; background: #04070d; border: 1px solid #353d50; overflow: hidden; }
 .video-frame video { width: 100%; height: 100%; display: block; object-fit: contain; background: #000; }
+.slide-video.has-subtitle .slide-subtitle { font-size: 24px; }
+.slide-video.has-subtitle .video-frame { top: 246px; height: 572px; }
 .portrait-video .slide-header { width: 870px; right: auto; top: 90px; }
 .portrait-video .slide-header h2 { font-size: 66px; margin-top: 45px; }
 .portrait-video .video-frame { left: 1080px; top: 118px; width: 328px; height: 711px; }
