@@ -1,0 +1,62 @@
+What's New This Year in RTE and Conversational AI - Global Market
+Ben Weekes — Chief Architect, Agora — iRTE 2026
+
+Format: short opening, one slide per demo video, short closing.
+No lecture slides or automatic playback. Use K to play/pause each clip,
+then the arrow keys to advance. Suggested introductions are in Notes (N).
+
+SEQUENCE
+
+1. Opening — 20 seconds
+2. MrBeast on Whatnot — 15-second intro + 13-second supplied clip
+3. Avatars & vendor comparison — 15-second intro + video, up to 2 minutes
+4. Avatar-assisted gaming — 15-second intro + video, up to 2 minutes
+5. Avatars presenting a TV lottery — 15-second intro + video, up to 2 minutes
+6. GPT-Live: full duplex & delegation — 15-second intro + supplied 2-minute clip
+7. Card-dealing avatars — 15-second intro + video, up to 2 minutes; work in progress
+8. AI commentary — 15-second intro + video, up to 2 minutes; work in progress
+9. Closing — 20 seconds
+
+TIME BUDGET
+
+Available: 15 minutes (900 seconds).
+The two supplied clips total about 2 minutes 13 seconds.
+At 2 minutes each, the five remaining clips add 10 minutes.
+Video time: about 12 minutes 13 seconds.
+Opening + seven introductions + closing: 2 minutes 25 seconds.
+Total: about 14 minutes 38 seconds, leaving 22 seconds for transitions.
+This is the longest planned version; shorter future clips give more space
+to introduce the examples. Final pacing will be updated as videos arrive.
+
+VIDEOS STILL TO BE SUPPLIED
+
+Avatar vendor comparison, avatar-assisted gaming, TV lottery presenter,
+card-dealing avatars, and AI commentary. The last two stay marked as
+work in progress. Add each video to media/ and set the corresponding src
+and poster in slides.js. No comparison scores or vendor rankings are invented.
+
+MEDIA PREPARATION
+
+MrBeast: MOV remuxed to MP4 without changing the video or audio content.
+GPT-Live: original 204 MB recording encoded to a roughly 12 MB MP4 for
+browser playback. Kept at two minutes, at its original 1920 x 1036 resolution,
+with H.264 video at 30 fps and AAC audio. The terminal output remains visible
+because it demonstrates the saved trip plan. This is not an airline booking.
+
+Both videos are hosted locally, with audio and native controls. Google Drive
+is only the source; presenting does not require opening Drive. Original files
+are preserved outside the public checkout in:
+    /home/ubuntu/pr-original-media/2026-10-23-Beijing/
+Their Drive links and delivered-file hashes are recorded in media/sources.json.
+
+RECORD WORDING
+
+Ben's first outline said 584K viewers and world record. Pending confirmation,
+the slide uses the published 583K+ figure and a U.S. live-shopping record.
+The MrBeast clip shows a latency reaction, not the peak-viewer moment.
+
+Source: Whatnot Engineering, 24 February 2026:
+https://medium.com/whatnot-engineering/scaling-whatnot-behind-the-largest-live-shopping-stream-in-us-history-040a458f538c
+Whatnot describes 583,000 peak viewers for the event; the same article gives
+582,225 simultaneous viewers within the Agora RTC channel. These are distinct
+measurements. Do not turn first-frame time into a claimed measured media latency.

@@ -23,9 +23,12 @@ maintenance/         Font helper and server-specific nginx route snippet
 
 The original RTE2026.pptx is preserved in templates/. Its dark palette,
 pixel background, conference logo, and bilingual styling are reused in
-2026-10-23-Beijing/. That deck contains eight starter layouts with content
-and video placeholders. The date and location come from slide 3 of the
-PowerPoint; update the folder, catalog entry, and slides.js if necessary.
+2026-10-23-Beijing/. That deck is a 15-minute demo reel with an opening,
+seven video slots, and a closing. Two videos are included: MrBeast on
+Whatnot and GPT-Live with delegation. Five videos are awaiting delivery.
+The date and location come from slide 3 of the PowerPoint; update the
+folder, catalog entry, and slides.js if necessary. Pacing and media source
+details are in the presentation's run-of-show.txt and media/sources.json.
 
 ADDING A PRESENTATION
 
@@ -34,7 +37,7 @@ ADDING A PRESENTATION
 2. Edit its slides.js: title, speaker, event, date, location, content, notes.
    Replace conference-specific artwork and branding as appropriate.
 3. Add an entry to presentations.js with slug, date (YYYY-MM-DD), location,
-   event, title, status, slideCount, and an optional thumbnail path.
+   event, title, status, slideCount, optional durationMinutes, and thumbnail.
 4. Put video and image files inside that presentation's media/ or assets/.
 5. If adding Chinese text, update its self-hosted font subsets:
        python3 maintenance/update-chinese-fonts.py 2027-03-15-San-Francisco
@@ -66,7 +69,8 @@ Put videos in the deck's media/ folder and set a video slide's src:
 Optional: poster: "media/demo-01.jpg", captions: "media/demo-01.vtt".
 Use H.264 video and AAC audio in MP4 for broad browser compatibility.
 Videos have native controls and pause when changing slides or blanking
-the screen. No video is included yet. Duplicate video slides for more clips.
+the screen. Duplicate video slides for more clips. Keep clips within the
+talk's time budget. This talk uses clips of two minutes or less.
 
 For a content slide, set image to a relative path in assets/ or media/
 and set imageAlt to describe the visual. Media paths are relative to the

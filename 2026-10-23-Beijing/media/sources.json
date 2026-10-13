@@ -1,0 +1,22 @@
+[
+  {
+    "file": "mrbeast-whatnot.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/1RzAwCJc8VUXxCdVyKF7r6FSbaxCV6tZH/view",
+    "originalFilename": "WhatNotBeast.MOV",
+    "originalDurationSeconds": 12.566667,
+    "durationSeconds": 12.583991,
+    "bytes": 5717057,
+    "sha256": "39c53d2a612105940cbb021a5e8e47a4009c78e9c95291d21ab672626ff1399d",
+    "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
+  },
+  {
+    "file": "gpt-live-delegation.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/1TeqO881cMhUStLjWE9BoeOPq8fn-jJZG/view",
+    "originalFilename": "gpt-delegate.mp4",
+    "originalDurationSeconds": 120.01,
+    "durationSeconds": 120.0,
+    "bytes": 11932844,
+    "sha256": "996ba7f0becda74c8777b7a09aa9c9fda8fe89ace148d2df303eaa784b1dbd1f",
+    "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
+  }
+]

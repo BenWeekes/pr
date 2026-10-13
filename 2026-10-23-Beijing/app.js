@@ -64,6 +64,7 @@
   function renderSlide(slide, index, thumbnail = false) {
     const section = el("section", `slide slide-${slide.type}`);
     section.dataset.slideId = slide.id;
+    if (slide.portrait) section.classList.add("portrait-video");
     section.setAttribute("aria-label", `${index + 1}. ${slide.label}`);
     if (thumbnail) section.setAttribute("aria-hidden", "true");
     if (["title", "section", "qa", "thanks"].includes(slide.type)) section.classList.add("artwork");
@@ -138,7 +139,7 @@
           const video = el("video");
           video.controls = true;
           video.playsInline = true;
-          video.preload = "none";
+          video.preload = "metadata";
           video.setAttribute("aria-label", slide.caption || slide.title);
           video.dataset.src = slide.src;
           if (slide.poster) video.poster = slide.poster;
@@ -161,6 +162,19 @@
           frame.append(videoPlaceholder(slide));
         }
         section.append(frame);
+        if (slide.heroNumber) {
+          const intro = el("div", "video-intro");
+          intro.append(el("p", "video-hero-number", slide.heroNumber), el("p", "video-hero-label", slide.heroLabel));
+          if (slide.context) intro.append(el("p", "video-context", slide.context));
+          if (slide.sourceUrl) {
+            const source = el("a", "video-source", slide.sourceLabel || "Source");
+            source.href = slide.sourceUrl;
+            source.target = "_blank";
+            source.rel = "noopener noreferrer";
+            intro.append(source);
+          }
+          section.append(intro);
+        }
         break;
       }
       case "qa": {

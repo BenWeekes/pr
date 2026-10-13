@@ -48,7 +48,7 @@
     details.append(visual, copy);
     const status = el("div", "presentation-status");
     status.append(el("span", "status-tag", presentation.status));
-    if (presentation.slideCount) status.append(el("span", "slide-total", `${presentation.slideCount} slides`));
+    if (presentation.slideCount) status.append(el("span", "slide-total", `${presentation.slideCount} slides${presentation.durationMinutes ? ` · ${presentation.durationMinutes} min` : ""}`));
     const link = el("a", "open-slides", "Open slides");
     link.href = `${presentation.slug}/`;
     link.setAttribute("aria-label", `Open ${presentation.event} presentation in ${presentation.location}, ${presentation.date}`);
