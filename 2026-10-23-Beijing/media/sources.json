@@ -110,5 +110,20 @@
         "outputEndSeconds": 30
       }
     ]
+  },
+  {
+    "file": "card-dealing-avatars.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/13dDXy7Ios98Z1rIKO1iCQY1p0DO-wQJJ/view",
+    "originalFilename": "bac.mov",
+    "originalDurationSeconds": 158.698833,
+    "originalBytes": 363071631,
+    "originalSha256": "821141f96b878cf91f1762dd2b46948bfd3afc374bf7a7fbe39759a9ccc3a82c",
+    "excerptStartSeconds": 31,
+    "excerptEndSeconds": 62,
+    "durationSeconds": 31.0,
+    "bytes": 10859175,
+    "sha256": "2bcbc39b57f365ac566180fb4e0a94fb8c4b78a8511dc609a3ee84a124fea4ee",
+    "encoding": "H.264 video at 30 fps, AAC audio; MP4 with fast-start metadata",
+    "edit": "Requested 00:31\u201301:02 excerpt; full avatar, card table and game interface preserved without cropping"
   }
 ]

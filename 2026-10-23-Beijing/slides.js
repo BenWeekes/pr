@@ -1,7 +1,7 @@
 /*
  * Fifteen-minute talk: seven demos, with short early-access and avatar-protocol explanations.
  * Model names and early-access experience are supplied by Ben Weekes.
- * One video is awaiting delivery; the running order and final timings remain flexible.
+ * All seven demo videos are included; the running order and final timings remain flexible.
  * Edit this file to change content, media paths, and speaker notes.
  */
 window.DECK = {
@@ -185,14 +185,15 @@ window.DECK = {
     {
       "id": "card-dealing-avatars",
       "type": "video",
-      "label": "Card-dealing avatars · WIP",
+      "label": "AI card-dealing avatar · WIP",
       "kicker": "DEMO 06 / 07 · WORK IN PROGRESS",
-      "title": "Card-dealing avatars",
-      "caption": "Card-dealing avatars",
-      "src": "",
-      "poster": "",
+      "title": "AI card-dealing avatar",
+      "caption": "AI card-dealing avatar",
+      "src": "media/card-dealing-avatars.mp4",
+      "poster": "media/card-dealing-avatars-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — up to 2 minutes; to be supplied.\n\nSuggested introduction: Finally, two projects in progress. First, card-dealing avatars: keeping speech, visible actions and the game state in sync.\n\nAdd the card-dealing video when supplied. Keep the work-in-progress label; do not imply production readiness."
+      "notes": "INTRO — about 10 seconds. VIDEO — 31 seconds.\n\nSuggested introduction: Finally, two projects in progress. First, an AI card-dealing avatar. Watch the deal and the game result.\n\nRequested source excerpt: 00:31–01:02 from bac.mov. The clip keeps the full avatar, card table, player/banker interface and balance visible. It shows the card handling and the game result updating. The original recording is preserved separately.\n\nKeep this framed as work in progress. Press K to play; use G to jump to another section. The final running order and timings remain flexible.",
+      "durationSeconds": 31.0
     },
     {
       "id": "ai-commentary",
@@ -213,7 +214,7 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Six demo clips are ready, including the bilingual vendor comparison and AI commentary reels. With the remaining card-dealing demo estimated at two minutes, the current sequence is about 11 minutes 40 seconds. Use G to jump past any section during the presentation."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all seven demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 7 minutes 41 seconds. With the current short introductions and explanation slides, the sequence is about 10 minutes 11 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation."
     }
   ]
 };

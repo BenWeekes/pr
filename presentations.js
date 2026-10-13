@@ -10,7 +10,7 @@ window.PRESENTATIONS = [
     "slideCount": 11,
     "durationMinutes": 15,
     "videoCount": 7,
-    "videosReady": 6,
+    "videosReady": 7,
     "thumbnail": "2026-10-23-Beijing/assets/event-logo.png"
   }
 ];
