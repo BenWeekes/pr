@@ -206,6 +206,9 @@
           video.preload = "metadata";
           video.setAttribute("aria-label", slide.caption || slide.title);
           video.dataset.src = slide.src;
+          // Native media buttons can trap keys inside the browser's controls.
+          // Keep focus on the page so presentation shortcuts always receive them.
+          video.addEventListener("focusin", () => video.blur());
           if (slide.poster) video.poster = slide.poster;
           if (slide.captions) {
             const track = el("track");
@@ -417,31 +420,31 @@
       if (["b", "escape", " ", "enter"].includes(key)) { event.preventDefault(); toggleBlackout(); }
       return;
     }
-    // Leave native media controls and focused buttons' Space/Enter actions intact.
-    const nativeControl = event.target.closest("video, button, a");
-    if (event.target.closest("video") && ["arrowleft", "arrowright", "arrowup", "arrowdown", " ", "home", "end"].includes(key)) return;
-    if (nativeControl && key === " ") return;
+    // Presentation shortcuts work regardless of focus, including native video controls.
+    if (!["arrowright", "pagedown", "arrowleft", "pageup", "home", "end", "f", "g", "n", "?", "b", " ", "k"].includes(key)) return;
+    event.preventDefault();
+    event.stopPropagation();
     switch (key) {
-      case "arrowright": case "pagedown": case " ": event.preventDefault(); goTo(current + 1); break;
-      case "arrowleft": case "pageup": event.preventDefault(); goTo(current - 1); break;
-      case "home": event.preventDefault(); goTo(0); break;
-      case "end": event.preventDefault(); goTo(slides.length - 1); break;
-      case "f": event.preventDefault(); fullscreen(); break;
-      case "g": event.preventDefault(); openDialog(overview); break;
-      case "n": event.preventDefault(); openDialog(notes); break;
-      case "?": event.preventDefault(); openDialog(help); break;
-      case "b": event.preventDefault(); toggleBlackout(); break;
-      case "k": {
+      case "arrowright": case "pagedown": goTo(current + 1); break;
+      case "arrowleft": case "pageup": goTo(current - 1); break;
+      case "home": goTo(0); break;
+      case "end": goTo(slides.length - 1); break;
+      case "f": fullscreen(); break;
+      case "g": openDialog(overview); break;
+      case "n": openDialog(notes); break;
+      case "?": openDialog(help); break;
+      case "b": toggleBlackout(); break;
+      case " ": case "k": {
+        if (event.repeat) break;
         const video = slides[current].querySelector("video");
         if (video) {
-          event.preventDefault();
           if (video.paused) video.play().catch(() => toast("The video could not play. Check its file and format."));
           else video.pause();
         }
         break;
       }
     }
-  });
+  }, { capture: true });
 
   viewport.addEventListener("touchstart", event => {
     if (event.target.closest("video, button") || !blackout.hidden || event.touches.length !== 1) { touchStart = null; return; }

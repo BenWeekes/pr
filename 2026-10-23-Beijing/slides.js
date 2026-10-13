@@ -152,7 +152,7 @@ window.DECK = {
       "src": "media/avatar-comparison.mp4",
       "poster": "media/avatar-comparison-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here are six avatar vendors side by side, first in English, then in Chinese. Watch the lip sync, expression and motion.\n\nPress K once: 15 seconds of English switches directly to 15 seconds of Chinese. The full six-vendor grid and its Vendor 1–6 labels are preserved.\n\nEnglish source excerpt: 00:01.20–00:16.20. Chinese source excerpt: 00:01.80–00:16.80. The cuts retain the opening speech; the English ends in a pause and the Chinese ends at a pause. A language label sits above the grid, and a short audio fade smooths each excerpt end. Full originals are preserved separately.\n\nThe provided comparison labels vendors by number. Review the visible lip sync and motion; no vendor rankings or measured latency claims are added. Use G to jump to another demo if you choose to skip a section.",
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here are six avatar vendors side by side, first in English, then in Chinese. Watch the lip sync, expression and motion.\n\nPress Space once: 15 seconds of English switches directly to 15 seconds of Chinese. The full six-vendor grid and its Vendor 1–6 labels are preserved.\n\nEnglish source excerpt: 00:01.20–00:16.20. Chinese source excerpt: 00:01.80–00:16.80. The cuts retain the opening speech; the English ends in a pause and the Chinese ends at a pause. A language label sits above the grid, and a short audio fade smooths each excerpt end. Full originals are preserved separately.\n\nThe provided comparison labels vendors by number. Review the visible lip sync and motion; no vendor rankings or measured latency claims are added. Use G to jump to another demo if you choose to skip a section.",
       "durationSeconds": 30.0
     },
     {
@@ -192,7 +192,7 @@ window.DECK = {
       "src": "media/card-dealing-avatars.mp4",
       "poster": "media/card-dealing-avatars-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — 31 seconds.\n\nSuggested introduction: Finally, two projects in progress. First, an AI card-dealing avatar. Watch the deal and the game result.\n\nRequested source excerpt: 00:31–01:02 from bac.mov. The clip keeps the full avatar, card table, player/banker interface and balance visible. It shows the card handling and the game result updating. The original recording is preserved separately.\n\nKeep this framed as work in progress. Press K to play; use G to jump to another section. The final running order and timings remain flexible.",
+      "notes": "INTRO — about 10 seconds. VIDEO — 31 seconds.\n\nSuggested introduction: Finally, two projects in progress. First, an AI card-dealing avatar. Watch the deal and the game result.\n\nRequested source excerpt: 00:31–01:02 from bac.mov. The clip keeps the full avatar, card table, player/banker interface and balance visible. It shows the card handling and the game result updating. The original recording is preserved separately.\n\nKeep this framed as work in progress. Press Space to play; use G to jump to another section. The final running order and timings remain flexible.",
       "durationSeconds": 31.0
     },
     {
@@ -205,7 +205,7 @@ window.DECK = {
       "src": "media/ai-commentary.mp4",
       "poster": "media/ai-commentary-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here is AI football commentary, first in English and then in Chinese. This is still work in progress.\n\nPress K once: 15 seconds of English switches directly to 15 seconds of Chinese. The language label changes at the switch; the football footage and score graphics are preserved.\n\nExact requested source cuts: English 01:33–01:48, then Chinese 01:48–02:03. The picture follows the football sequence continuously across the language switch. A 60 ms audio fade smooths each excerpt end. Full five-minute originals are preserved separately.\n\nKeep this framed as work in progress. The final running order and timings remain flexible; use G to jump to another section.",
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here is AI football commentary, first in English and then in Chinese. This is still work in progress.\n\nPress Space once: 15 seconds of English switches directly to 15 seconds of Chinese. The language label changes at the switch; the football footage and score graphics are preserved.\n\nExact requested source cuts: English 01:33–01:48, then Chinese 01:48–02:03. The picture follows the football sequence continuously across the language switch. A 60 ms audio fade smooths each excerpt end. Full five-minute originals are preserved separately.\n\nKeep this framed as work in progress. The final running order and timings remain flexible; use G to jump to another section.",
       "durationSeconds": 30.0
     },
     {

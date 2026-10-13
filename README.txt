@@ -84,8 +84,8 @@ presentation folder, so the whole folder can be copied or downloaded.
 
 CONTROLS
 
-Arrow keys / Page Up / Page Down: previous or next slide
-Space: next slide (native button and media controls keep their behavior)
+Left / Right arrows or Page Up / Page Down: previous or next slide
+Space: play / pause the current slide's video; no action on other slides
 Home / End: first / last slide
 F: full screen (or use the Present button)
 G: slide overview
@@ -95,6 +95,8 @@ K: play / pause the current video
 ?: keyboard help
 Esc: close a panel or exit full screen
 Swipe left / right on touch screens to change slides.
+Arrows and Space work without selecting the video, including when a video
+control or toolbar button has focus. Enter still activates focused buttons.
 Direct slide links use YYYY-MM-DD-Location/#/1, #/2, etc.
 Original /pr/#/N links redirect to 2026-10-23-Beijing/#/N.
 Browser printing prints one page per slide.
