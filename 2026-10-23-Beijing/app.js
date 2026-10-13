@@ -132,6 +132,57 @@
         section.append(columns);
         break;
       }
+      case "table": {
+        section.append(header(slide));
+        const table = el("table", "model-table");
+        table.setAttribute("aria-label", slide.title);
+        const head = el("thead");
+        const headings = el("tr");
+        slide.headers.forEach(text => {
+          const cell = el("th", "", text);
+          cell.scope = "col";
+          headings.append(cell);
+        });
+        head.append(headings);
+        const body = el("tbody");
+        slide.rows.forEach(row => {
+          const tr = el("tr");
+          row.forEach((text, column) => {
+            const cell = el(column === 0 ? "th" : "td", column === 2 ? "model-name" : "", text);
+            if (column === 0) cell.scope = "row";
+            if (column === 1) {
+              cell.textContent = "";
+              const badge = el("span", "model-type", text);
+              badge.dataset.type = text;
+              cell.append(badge);
+            }
+            tr.append(cell);
+          });
+          body.append(tr);
+        });
+        table.append(head, body);
+        section.append(table);
+        if (slide.legend) section.append(el("p", "model-legend", slide.legend));
+        break;
+      }
+      case "protocol": {
+        section.append(header(slide));
+        const flow = el("div", "protocol-flow");
+        flow.setAttribute("role", "img");
+        flow.setAttribute("aria-label", "AI video and avatar vendors connect to ConvoAI through the Generic Avatar Protocol.");
+        slide.nodes.forEach((item, i) => {
+          if (i) {
+            const arrow = el("div", "protocol-arrow", "→");
+            arrow.setAttribute("aria-hidden", "true");
+            flow.append(arrow);
+          }
+          const node = el("div", `protocol-node protocol-node-${i + 1}`);
+          node.append(el("span", "protocol-node-label", item.label), el("h3", "", item.title), el("p", "", item.detail));
+          flow.append(node);
+        });
+        section.append(flow, el("p", "protocol-takeaway", slide.takeaway));
+        break;
+      }
       case "video": {
         section.append(header(slide));
         const frame = el("div", "video-frame");

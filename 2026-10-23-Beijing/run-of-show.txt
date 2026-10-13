@@ -1,21 +1,26 @@
 What's New This Year in RTE and Conversational AI - Global Market
 Ben Weekes — Chief Architect, Agora — iRTE 2026
 
-Format: short opening, one slide per demo video, short closing.
-No lecture slides or automatic playback. Use K to play/pause each clip,
-then the arrow keys to advance. Suggested introductions are in Notes (N).
+Format: mostly demo videos, with two short explanations to connect the story.
+Playback is manual. Use K to play/pause and arrows to advance.
+Suggested introductions are in Notes (N).
 
 SEQUENCE
 
 1. Opening — 20 seconds
-2. MrBeast on Whatnot — 15-second intro + 13-second supplied clip
-3. Avatars & vendor comparison — 15-second intro + video, up to 2 minutes
-4. Avatar-assisted gaming — 15-second intro + video, up to 2 minutes
-5. Avatars presenting a TV lottery — 15-second intro + video, up to 2 minutes
-6. GPT-Live: full duplex & delegation — 15-second intro + supplied 2-minute clip
-7. Card-dealing avatars — 15-second intro + video, up to 2 minutes; work in progress
-8. AI commentary — 15-second intro + video, up to 2 minutes; work in progress
-9. Closing — 20 seconds
+2. MrBeast on Whatnot — 10-second intro + 13-second supplied clip
+3. ConvoAI Early Access Programs — 20 seconds
+   Six models from Ben's early-access work: Google live MLLMs, TTS, ASR,
+   and OpenAI gpt-live-1. The supplied identifiers are preserved exactly.
+4. GPT-Live: full duplex & delegation — 10-second intro + supplied 2-minute clip
+5. Generic Avatar Protocol — 20 seconds
+   A common integration path from AI video / avatar vendors into ConvoAI.
+6. Avatars & vendor comparison — 10-second intro + video, up to 2 minutes
+7. Avatar-assisted gaming — 10-second intro + video, up to 2 minutes
+8. Avatars presenting a TV lottery — 10-second intro + video, up to 2 minutes
+9. Card-dealing avatars — 10-second intro + video, up to 2 minutes; work in progress
+10. AI commentary — 10-second intro + video, up to 2 minutes; work in progress
+11. Closing — 20 seconds
 
 TIME BUDGET
 
@@ -23,17 +28,41 @@ Available: 15 minutes (900 seconds).
 The two supplied clips total about 2 minutes 13 seconds.
 At 2 minutes each, the five remaining clips add 10 minutes.
 Video time: about 12 minutes 13 seconds.
-Opening + seven introductions + closing: 2 minutes 25 seconds.
-Total: about 14 minutes 38 seconds, leaving 22 seconds for transitions.
-This is the longest planned version; shorter future clips give more space
-to introduce the examples. Final pacing will be updated as videos arrive.
+Opening + closing: 40 seconds.
+Early-access + protocol explanations: 40 seconds.
+Seven video introductions at 10 seconds each: 70 seconds.
+Total: about 14 minutes 43 seconds, leaving 17 seconds for transitions.
+Shorter future clips give more space for introductions and explanation.
+Update final pacing as videos arrive; keep the two explanation slides brief.
 
 VIDEOS STILL TO BE SUPPLIED
 
 Avatar vendor comparison, avatar-assisted gaming, TV lottery presenter,
 card-dealing avatars, and AI commentary. The last two stay marked as
-work in progress. Add each video to media/ and set the corresponding src
-and poster in slides.js. No comparison scores or vendor rankings are invented.
+work in progress. Add each video to media/ and set its src and poster
+in slides.js. No comparison scores or vendor rankings are invented.
+
+EARLY-ACCESS SLIDE
+
+Vendor  Type  Model
+Google  MLLM  gemini-3.8-live
+Google  MLLM  gemini-3.8-live-extended-thinking
+Google  TTS   gemini-3.8-flash-tts
+Google  TTS   gemini-3.8-flash-lite-tts
+Google  ASR   gemini-3.5-transcribe-live
+OpenAI  MLLM  gpt-live-1
+
+Ben states that he built extensions for these models before public release.
+This is his supplied early-access experience, without added release dates
+or assertions about current public availability. Do not read every model
+identifier aloud; summarize the three model types, then introduce GPT-Live.
+
+AVATAR-PROTOCOL SLIDE
+
+AI video / avatar vendors → Generic Avatar Protocol → ConvoAI.
+The diagram is a conceptual explanation of Ben's integration approach,
+without invented transport details, APIs or vendor support lists.
+It leads directly into the avatar comparison and use-case videos.
 
 MEDIA PREPARATION
 

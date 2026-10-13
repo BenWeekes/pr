@@ -7,7 +7,7 @@ window.PRESENTATIONS = [
     "event": "iRTE 2026",
     "title": "What's New This Year in RTE and Conversational AI - Global Market",
     "status": "In preparation",
-    "slideCount": 9,
+    "slideCount": 11,
     "durationMinutes": 15,
     "videoCount": 7,
     "videosReady": 2,

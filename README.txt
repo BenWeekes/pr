@@ -23,8 +23,9 @@ maintenance/         Font helper and server-specific nginx route snippet
 
 The original RTE2026.pptx is preserved in templates/. Its dark palette,
 pixel background, conference logo, and bilingual styling are reused in
-2026-10-23-Beijing/. That deck is a 15-minute demo reel with an opening,
-seven video slots, and a closing. Two videos are included: MrBeast on
+2026-10-23-Beijing/. That deck is a 15-minute talk with an opening, seven
+video slots, two brief slides on early access and avatar integration,
+and a closing. Two videos are included: MrBeast on
 Whatnot and GPT-Live with delegation. Five videos are awaiting delivery.
 The date and location come from slide 3 of the PowerPoint; update the
 folder, catalog entry, and slides.js if necessary. Pacing and media source
@@ -53,8 +54,8 @@ EDITING A DECK
 
 Edit YYYY-MM-DD-Location/slides.js to change the title, speaker details,
 content, order, and notes. Add or duplicate objects in DECK.slides for
-more slides. Types: title, agenda, section, content, columns, video, qa,
-thanks, and cover. A cover uses the original conference opening artwork:
+more slides. Types: title, agenda, section, content, columns, table, protocol,
+video, qa, thanks, and cover. A cover uses the conference opening artwork:
     { id: "conference", type: "cover", label: "Conference" }
 
 Edit the deck's styles.css for styling and app.js for player behavior.
