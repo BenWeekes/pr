@@ -167,13 +167,18 @@
       }
       case "protocol": {
         section.append(header(slide));
+        if (slide.sessionNote) section.append(el("p", "protocol-session", slide.sessionNote));
         const flow = el("div", "protocol-flow");
         flow.setAttribute("role", "img");
-        flow.setAttribute("aria-label", "AI video and avatar vendors connect to ConvoAI through the Generic Avatar Protocol.");
+        flow.setAttribute("aria-label", slide.diagramDescription || slide.nodes.map(node => node.title.replaceAll("\n", " ")).join(" → "));
         slide.nodes.forEach((item, i) => {
           if (i) {
-            const arrow = el("div", "protocol-arrow", "→");
+            const arrow = el("div", "protocol-arrow");
             arrow.setAttribute("aria-hidden", "true");
+            const link = slide.links?.[i - 1];
+            if (link?.label) arrow.append(el("span", "protocol-link-label", link.label));
+            arrow.append(el("span", "protocol-link-arrow", "→"));
+            if (link?.detail) arrow.append(el("span", "protocol-link-detail", link.detail));
             flow.append(arrow);
           }
           const node = el("div", `protocol-node protocol-node-${i + 1}`);
@@ -181,6 +186,13 @@
           flow.append(node);
         });
         section.append(flow, el("p", "protocol-takeaway", slide.takeaway));
+        if (slide.sourceUrl) {
+          const source = el("a", "protocol-source", slide.sourceLabel || "Reference implementation ↗");
+          source.href = slide.sourceUrl;
+          source.target = "_blank";
+          source.rel = "noopener noreferrer";
+          section.append(source);
+        }
         break;
       }
       case "video": {

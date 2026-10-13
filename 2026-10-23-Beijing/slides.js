@@ -104,28 +104,43 @@ window.DECK = {
       "id": "generic-avatar-protocol",
       "type": "protocol",
       "label": "Generic Avatar Protocol",
-      "kicker": "AVATARS / COMMON INTEGRATION",
+      "kicker": "AVATARS / OPEN INTEGRATION PROTOCOL",
       "title": "Generic Avatar Protocol",
-      "subtitle": "An easier way to integrate any AI video or avatar vendor into ConvoAI.",
+      "subtitle": "A common interface for AI video and avatar providers.",
       "nodes": [
         {
-          "label": "VENDORS",
-          "title": "AI video &\navatar vendors",
-          "detail": "Choose your provider"
-        },
-        {
-          "label": "PROTOCOL",
-          "title": "Generic Avatar\nProtocol",
-          "detail": "A common integration path"
-        },
-        {
-          "label": "EXPERIENCE",
+          "label": "AGENT",
           "title": "ConvoAI",
-          "detail": "Your conversation experience"
+          "detail": "Agent speech + controls"
+        },
+        {
+          "label": "PROVIDER",
+          "title": "Avatar / video\nprovider",
+          "detail": "Generates video from speech"
+        },
+        {
+          "label": "DELIVERY",
+          "title": "Agora channel",
+          "detail": "Audio + video to viewers"
         }
       ],
-      "takeaway": "One common protocol. More vendor choice.",
-      "notes": "GENERIC AVATAR PROTOCOL — about 20 seconds.\n\nSuggested introduction: That conversation can also have a visual presence. The Generic Avatar Protocol makes it easier to integrate any AI video or avatar vendor into ConvoAI. That opens up vendor choice. Let's look at the avatars.\n\nThe diagram is a conceptual view of the integration described by Ben. It does not specify API endpoints, formats, supported-vendor lists or transport details."
+      "takeaway": "Vendors implement the interface. Agora distributes the audio + video.",
+      "notes": "GENERIC AVATAR PROTOCOL — about 20 seconds.\n\nSuggested introduction: ConvoAI sends speech and controls over WebSocket to the avatar provider. The provider generates video and publishes audio and video into an Agora channel. A common session API and reference publisher give vendors an integration path.\n\nIntegration detail: Agora calls the provider's POST /session/start endpoint; the provider returns a WebSocket address and session token. The provider also implements DELETE /session/stop and the WebSocket receiver, then feeds its video and the agent audio to a publisher. The repo supplies a Go publisher to use or adapt.\n\nProtocol controls include speech-end and interruption messages. Optional gesture actions are documented as in development; provider action handling is required, and the sample receiver covers audio and controls.\n\nSources:\nhttps://github.com/AgoraIO-Solutions/convoai_to_video\nhttps://github.com/AgoraIO-Solutions/convoai_to_video/blob/master/websocket-receive-audio/README.md\nReviewed revision: 44bf4124e8111ec77e9a0e50c2dec2bb5e23365d.",
+      "sessionNote": "Session setup: REST API → WebSocket address + session token",
+      "links": [
+        {
+          "label": "WebSocket",
+          "detail": "speech +\ncontrols"
+        },
+        {
+          "label": "Publish",
+          "detail": "audio +\nvideo"
+        }
+      ],
+      "diagramDescription": "REST establishes a provider session. ConvoAI streams speech and control messages to the avatar provider over WebSocket. The provider generates video and publishes audio plus video into an Agora channel for viewers.",
+      "sourceUrl": "https://github.com/AgoraIO-Solutions/convoai_to_video",
+      "sourceLabel": "Source & reference implementation: AgoraIO-Solutions/convoai_to_video ↗",
+      "referenceCommit": "44bf4124e8111ec77e9a0e50c2dec2bb5e23365d"
     },
     {
       "id": "avatar-comparison",

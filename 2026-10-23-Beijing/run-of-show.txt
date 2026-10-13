@@ -14,7 +14,7 @@ SEQUENCE
    and OpenAI gpt-live-1. The supplied identifiers are preserved exactly.
 4. GPT-Live: full duplex & delegation — 10-second intro + supplied 2-minute clip
 5. Generic Avatar Protocol — 20 seconds
-   A common integration path from AI video / avatar vendors into ConvoAI.
+   ConvoAI speech → avatar provider → audio + video in an Agora channel.
 6. Avatars & vendor comparison — 10-second intro + video, up to 2 minutes
 7. Avatar-assisted gaming — 10-second intro + video, up to 2 minutes
 8. Avatars presenting a TV lottery — 10-second intro + video, up to 2 minutes
@@ -59,10 +59,20 @@ identifier aloud; summarize the three model types, then introduce GPT-Live.
 
 AVATAR-PROTOCOL SLIDE
 
-AI video / avatar vendors → Generic Avatar Protocol → ConvoAI.
-The diagram is a conceptual explanation of Ben's integration approach,
-without invented transport details, APIs or vendor support lists.
-It leads directly into the avatar comparison and use-case videos.
+ConvoAI speech → avatar / video provider → audio + video in an Agora channel.
+Agora opens a provider session through REST. The provider returns a WebSocket
+address and session token, receives the agent's speech and controls over that
+connection, generates video, and publishes audio plus video into the channel.
+
+The vendor implements the session endpoints and WebSocket receiver; the
+repository supplies a Go publisher to use or adapt. Gesture actions are
+specified as in development, with action handling implemented by the provider.
+The slide leads directly into the avatar comparison and use-case videos.
+
+Source: https://github.com/AgoraIO-Solutions/convoai_to_video
+Protocol controls:
+https://github.com/AgoraIO-Solutions/convoai_to_video/blob/master/websocket-receive-audio/README.md
+Reviewed revision: 44bf4124e8111ec77e9a0e50c2dec2bb5e23365d.
 
 MEDIA PREPARATION
 

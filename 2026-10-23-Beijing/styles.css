@@ -103,7 +103,8 @@ button svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke
 .model-type[data-type="TTS"] { color: var(--green); border-color: #3c6547; }
 .model-type[data-type="ASR"] { color: var(--cyan); border-color: #375e69; }
 .model-legend { position: absolute; left: 90px; right: 90px; top: 805px; margin: 0; font-size: 17px; color: #8e9aae; line-height: 1.5; }
-.protocol-flow { position: absolute; left: 90px; right: 90px; top: 353px; display: grid; grid-template-columns: 1fr 70px 1.15fr 70px 1fr; align-items: center; }
+.protocol-session { position: absolute; left: 90px; right: 90px; top: 296px; margin: 0; color: #b29bff; font-size: 22px; line-height: 1.4; }
+.protocol-flow { position: absolute; left: 90px; right: 90px; top: 370px; display: grid; grid-template-columns: 1fr 120px 1.15fr 120px 1fr; align-items: center; }
 .protocol-node { min-height: 277px; padding: 32px; border: 1px solid #3d5663; background: #0c1420; display: flex; flex-direction: column; justify-content: center; }
 .protocol-node-2 { border: 2px solid #9476cc; background: #19132a; }
 .protocol-node-3 { border-color: #486f50; background: #0e1b17; }
@@ -112,8 +113,13 @@ button svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke
 .protocol-node-3 .protocol-node-label { color: var(--green); }
 .protocol-node h3 { font-size: 40px; line-height: 1.2; white-space: pre-line; letter-spacing: -.025em; margin: 25px 0 18px; }
 .protocol-node p { font-size: 23px; color: #aab4c7; margin: 0; line-height: 1.4; }
-.protocol-arrow { text-align: center; font-size: 47px; color: #8e85a6; }
-.protocol-takeaway { position: absolute; left: 90px; right: 90px; top: 709px; color: #cbd5e6; font-size: 32px; margin: 0; line-height: 1.5; }
+.protocol-arrow { text-align: center; color: #8e85a6; display: flex; flex-direction: column; align-items: center; gap: 9px; }
+.protocol-link-label { font-family: ui-monospace, Consolas, monospace; font-size: 16px; color: #b7b0cc; }
+.protocol-link-arrow { font-size: 47px; line-height: 1; }
+.protocol-link-detail { font-size: 16px; color: #9ca8bc; line-height: 1.4; white-space: pre-line; }
+.protocol-takeaway { position: absolute; left: 90px; right: 90px; top: 708px; color: #cbd5e6; font-size: 29px; margin: 0; line-height: 1.5; }
+.protocol-source { position: absolute; left: 90px; top: 787px; color: #8993a5; font-size: 18px; text-decoration: none; border-bottom: 1px solid #4f5869; padding-bottom: 3px; }
+.protocol-source:hover { color: var(--cyan); }
 .slide-video .slide-header { top: 48px; }
 .slide-video .slide-header h2 { font-size: 54px; margin-top: 33px; }
 .slide-video .slide-header .kicker { font-size: 20px; }
