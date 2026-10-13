@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'iRTE CJK';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('chinese-400.ttf') format('truetype');
+  unicode-range: U+3002, U+4E00, U+4E0E, U+4E3B, U+4EA4, U+4EAC, U+4F1A, U+5185, U+5317, U+53C2, U+5927, U+5B9A, U+5B9E, U+5BB9, U+5F85, U+5FC3, U+63A2, U+65F6, U+667A, U+6838, U+6982, U+6D41, U+6F14, U+70B9, U+793A, U+7D22, U+7EE7, U+7EED, U+80FD, U+89C2, U+89C6, U+89C8, U+8BB2, U+8C22, U+8D77, U+9891, U+9898;
+}
+
+@font-face {
+  font-family: 'iRTE CJK';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('chinese-700.ttf') format('truetype');
+  unicode-range: U+3002, U+4E00, U+4E0E, U+4E3B, U+4EA4, U+4EAC, U+4F1A, U+5185, U+5317, U+53C2, U+5927, U+5B9A, U+5B9E, U+5BB9, U+5F85, U+5FC3, U+63A2, U+65F6, U+667A, U+6838, U+6982, U+6D41, U+6F14, U+70B9, U+793A, U+7D22, U+7EE7, U+7EED, U+80FD, U+89C2, U+89C6, U+89C8, U+8BB2, U+8C22, U+8D77, U+9891, U+9898;
+}

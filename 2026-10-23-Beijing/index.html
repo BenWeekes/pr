@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c14">
+  <meta name="description" content="Ben Weekes, Chief Architect at Agora — iRTE 2026 presentation.">
+  <title>Ben Weekes · Agora · iRTE 2026</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="slides.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="player">
+    <header class="toolbar" aria-label="Presentation tools">
+      <a class="deck-brand" href="#/1" aria-label="Go to first slide"><span class="brand-pixel" aria-hidden="true"></span><strong>iRTE <span>2026</span></strong><span class="brand-divider"></span><span class="speaker-label">Ben Weekes <span>/ Agora</span></span></a>
+      <div class="tools">
+        <a class="library-link" href="../" title="All presentations" aria-label="All presentations"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6-6 6 6 6M4 12h16"/></svg><span>All presentations</span></a>
+        <button id="overview-button" title="Slide overview (G)" aria-label="Slide overview" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="6" height="6"/><rect x="15" y="3" width="6" height="6"/><rect x="3" y="15" width="6" height="6"/><rect x="15" y="15" width="6" height="6"/></svg><span>Slides</span></button>
+        <button id="notes-button" title="Speaker notes (N)" aria-label="Speaker notes" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5zM8 8h8M8 12h8M8 16h5"/></svg><span>Notes</span></button>
+        <button id="help-button" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9a3 3 0 1 1 4 3c-1 .5-1 1-1 2M12 17h.01"/></svg></button>
+        <button id="fullscreen-button" class="present-button" title="Full screen (F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg><span>Present</span></button>
+      </div>
+    </header>
+    <main class="viewport" id="viewport" aria-label="Presentation">
+      <div id="stage" class="stage"></div>
+      <div id="blackout" class="blackout" hidden><button id="resume-button">Resume presentation <kbd>B</kbd></button></div>
+    </main>
+    <footer class="navigation" aria-label="Slide navigation">
+      <div class="progress-track" aria-hidden="true"><div id="progress"></div></div>
+      <div class="slide-info"><span id="slide-count" class="slide-count"></span><span class="navigation-divider"></span><span id="slide-label"></span></div>
+      <div class="navigation-actions"><span class="keyboard-hint">Use <kbd>←</kbd> <kbd>→</kbd> to navigate</span><button id="previous-button" aria-label="Previous slide" title="Previous slide (←)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button><button id="next-button" aria-label="Next slide" title="Next slide (→)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button></div>
+    </footer>
+  </div>
+  <dialog id="overview-dialog" class="overview-dialog" aria-labelledby="overview-heading">
+    <div class="dialog-heading"><div><p class="eyebrow">iRTE 2026 / BEN WEEKES</p><h2 id="overview-heading">Slide overview</h2></div><button class="close-dialog" aria-label="Close slide overview">×</button></div>
+    <div id="thumbnails" class="thumbnails"></div>
+    <p class="dialog-hint">Choose a slide to jump to it. <kbd>Esc</kbd> to return.</p>
+  </dialog>
+  <dialog id="notes-dialog" aria-labelledby="notes-heading">
+    <div class="dialog-heading"><div><p class="eyebrow" id="notes-slide-number"></p><h2 id="notes-heading">Speaker notes</h2></div><button class="close-dialog" aria-label="Close speaker notes">×</button></div>
+    <div id="notes-content" class="notes-content"></div>
+  </dialog>
+  <dialog id="help-dialog" aria-labelledby="help-heading">
+    <div class="dialog-heading"><div><p class="eyebrow">PRESENTATION CONTROLS</p><h2 id="help-heading">Keyboard shortcuts</h2></div><button class="close-dialog" aria-label="Close keyboard shortcuts">×</button></div>
+    <dl class="shortcuts"><div><dt>Next / previous slide</dt><dd><kbd>→</kbd> <kbd>←</kbd> or <kbd>PgDn</kbd> <kbd>PgUp</kbd></dd></div><div><dt>First / last slide</dt><dd><kbd>Home</kbd> <kbd>End</kbd></dd></div><div><dt>Full screen</dt><dd><kbd>F</kbd></dd></div><div><dt>Slide overview</dt><dd><kbd>G</kbd></dd></div><div><dt>Speaker notes</dt><dd><kbd>N</kbd></dd></div><div><dt>Black screen / resume</dt><dd><kbd>B</kbd></dd></div><div><dt>Play / pause video</dt><dd><kbd>K</kbd></dd></div><div><dt>These shortcuts</dt><dd><kbd>?</kbd></dd></div><div><dt>Close a panel / leave full screen</dt><dd><kbd>Esc</kbd></dd></div></dl>
+  </dialog>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><p class="noscript">Enable JavaScript to view these slides.</p></noscript>
+</body>
+</html>
