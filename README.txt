@@ -27,7 +27,7 @@ pixel background, conference logo, and bilingual styling are reused in
 video slots, two brief slides on early access and avatar integration,
 and a closing. All seven demo clips are included: MrBeast on Whatnot,
 GPT-Live with delegation, a bilingual avatar vendor comparison, avatar-assisted
-gaming, an avatar TV lottery presenter, an AI card-dealing avatar, and
+gaming, the RTE meets avatars demo, an AI card-dealing avatar, and
 bilingual AI football commentary. The final two demos remain marked as work
 in progress.
 The sequence is a working draft; review the visuals and flow before choosing

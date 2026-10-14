@@ -170,17 +170,16 @@ window.DECK = {
       "subtitle": "An interactive game controlled by voice and hosted by an avatar · Agora ConvoAI"
     },
     {
-      "id": "avatar-tv-lottery",
+      "id": "rte-meets-avatars",
       "type": "video",
-      "label": "Avatars presenting a TV lottery",
-      "kicker": "DEMO 05 / 07 · BROADCAST",
-      "title": "Avatars presenting a TV lottery",
-      "caption": "Avatar TV lottery presenter",
-      "src": "media/avatar-tv-lottery.mp4",
-      "poster": "media/avatar-tv-lottery-poster.jpg",
-      "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — about 1 minute 58 seconds.\n\nSuggested introduction: Here is an avatar presenting a TV lottery. Watch the delivery, timing and continuity of its on-screen performance.\n\nPresentation excerpt: 00:36.80 to the end of the 2:35 original, beginning in a speech pause. It skips part of the opening countdown and keeps the draw and displayed results. The full original is preserved separately.",
-      "durationSeconds": 117.781
+      "label": "RTE meets avatars",
+      "kicker": "DEMO 05 / 07 · RTE + AVATARS",
+      "title": "RTE meets avatars",
+      "caption": "RTE meets avatars",
+      "src": "media/rte-meets-avatars.mp4",
+      "poster": "media/rte-meets-avatars-poster.jpg",
+      "notes": "INTRO — about 10 seconds. VIDEO — about 40 seconds.\n\nSuggested introduction: Next, RTE meets avatars. Here is human video alongside realistic and animated avatars. Watch the expressions and gestures across the grid.\n\nThe full ben_h2a_grid.mp4 recording is included, without cropping or trimming. All six panels stay visible. The original H.264 video and AAC audio are preserved without re-encoding; the MP4 is prepared for prompt browser playback. The original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible.",
+      "durationSeconds": 39.615
     },
     {
       "id": "card-dealing-avatars",
@@ -214,7 +213,7 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all seven demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 7 minutes 41 seconds. With the current short introductions and explanation slides, the sequence is about 10 minutes 11 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all seven demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 6 minutes 23 seconds. With the current short introductions and explanation slides, the sequence is about 8 minutes 53 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation."
     }
   ]
 };

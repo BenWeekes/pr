@@ -32,18 +32,6 @@
     "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
   },
   {
-    "file": "avatar-tv-lottery.mp4",
-    "sourceUrl": "https://drive.google.com/file/d/1l_nsFgn_PiOcpKKmkUIKdQk5_-ebamUy/view",
-    "originalFilename": "lotto-gina-v2.mp4",
-    "originalDurationSeconds": 154.55,
-    "excerptStartSeconds": 36.8,
-    "excerptEndSeconds": 154.55,
-    "durationSeconds": 117.781,
-    "bytes": 33797898,
-    "sha256": "05db6dfaf0da5bc48a1190e8aba74f40b04ab5b68564f7ceaffce2120591887d",
-    "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
-  },
-  {
     "file": "avatar-comparison.mp4",
     "durationSeconds": 30.0,
     "bytes": 7231089,
@@ -125,5 +113,18 @@
     "sha256": "2bcbc39b57f365ac566180fb4e0a94fb8c4b78a8511dc609a3ee84a124fea4ee",
     "encoding": "H.264 video at 30 fps, AAC audio; MP4 with fast-start metadata",
     "edit": "Requested 00:31\u201301:02 excerpt; full avatar, card table and game interface preserved without cropping"
+  },
+  {
+    "file": "rte-meets-avatars.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/127xinH3TzcrUaPS8GKVeWL3ZBjOKT7-W/view",
+    "originalFilename": "ben_h2a_grid.mp4",
+    "originalDurationSeconds": 39.615,
+    "originalBytes": 30548903,
+    "originalSha256": "f41c6fe10dcf436cde9003e2c907343774b6a2d7ae489b849c405431d15c16db",
+    "durationSeconds": 39.615,
+    "bytes": 30548898,
+    "sha256": "5154b3dacaf11d2b8c8920490324848593341ded0ca500ce7fd090bf14c550ee",
+    "encoding": "Original H.264 video at 30 fps and AAC audio, remuxed without re-encoding; MP4 with fast-start metadata",
+    "edit": "Full recording; six-panel view preserved without cropping or trimming"
   }
 ]
