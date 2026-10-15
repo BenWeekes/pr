@@ -178,7 +178,7 @@ window.DECK = {
       "caption": "RTE meets avatars",
       "src": "media/rte-meets-avatars.mp4",
       "poster": "media/rte-meets-avatars-poster.jpg",
-      "notes": "INTRO — about 10 seconds. VIDEO — about 40 seconds.\n\nSuggested introduction: Next, RTE meets avatars. Here is human video alongside realistic and animated avatars. Watch the expressions and gestures across the grid.\n\nThe full ben_h2a_grid.mp4 recording is included, without cropping or trimming. All six panels stay visible. The original H.264 video and AAC audio are preserved without re-encoding; the MP4 is prepared for prompt browser playback. The original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible.",
+      "notes": "INTRO — about 10 seconds. VIDEO — about 40 seconds.\n\nSuggested introduction: Next, RTE meets avatars. Here is human video alongside realistic and animated avatars. Watch the expressions and gestures across the grid.\n\nThe full benb_grid_final.mp4 recording is included, using Ben's replacement with improved sync. All six panels stay visible, without cropping or trimming. The original H.264 video and AAC audio are preserved without re-encoding, with identical audio/video packet timestamps; the MP4 is prepared for prompt browser playback. The original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible.",
       "durationSeconds": 39.615
     },
     {

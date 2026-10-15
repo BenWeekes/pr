@@ -91,10 +91,12 @@ Gaming: excerpt from 00:19.35 to the end of quiz-wheel.mov (2:19 original).
 The cut starts in a speech pause and retains the game interaction and score.
 The gaming excerpt uses H.264/AAC at its original resolution, at 30 fps.
 
-RTE meets avatars: the full ben_h2a_grid.mp4 recording, about 40 seconds.
+RTE meets avatars: the full benb_grid_final.mp4 recording, about 40 seconds,
+using Ben's replacement with improved sync.
 All six panels remain visible at the original 1620 x 1080 resolution.
 The original H.264 video at 30 fps and AAC audio are remuxed without
-re-encoding, with fast-start metadata for browser playback.
+re-encoding, with identical audio/video packet timestamps and fast-start
+metadata for browser playback.
 
 Vendor comparison: one 30-second reel made from English 00:01.20–00:16.20
 and Chinese 00:01.80–00:16.80. It retains the opening speech and full vendor

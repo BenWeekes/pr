@@ -116,15 +116,15 @@
   },
   {
     "file": "rte-meets-avatars.mp4",
-    "sourceUrl": "https://drive.google.com/file/d/127xinH3TzcrUaPS8GKVeWL3ZBjOKT7-W/view",
-    "originalFilename": "ben_h2a_grid.mp4",
+    "sourceUrl": "https://drive.google.com/file/d/1NP3HiwFYEMkEGGC0Nrn11vNmQcaPfg85/view",
+    "originalFilename": "benb_grid_final.mp4",
     "originalDurationSeconds": 39.615,
-    "originalBytes": 30548903,
-    "originalSha256": "f41c6fe10dcf436cde9003e2c907343774b6a2d7ae489b849c405431d15c16db",
+    "originalBytes": 30341916,
+    "originalSha256": "a2477dd97765b318d6956e4b24d52e21ff950c9617de9732b81c551e5c58e55c",
     "durationSeconds": 39.615,
-    "bytes": 30548898,
-    "sha256": "5154b3dacaf11d2b8c8920490324848593341ded0ca500ce7fd090bf14c550ee",
-    "encoding": "Original H.264 video at 30 fps and AAC audio, remuxed without re-encoding; MP4 with fast-start metadata",
-    "edit": "Full recording; six-panel view preserved without cropping or trimming"
+    "bytes": 30341911,
+    "sha256": "80055521311741c9d203057b845f220eac5268181bceabd3f1a2a5b9e0bc08eb",
+    "encoding": "Original H.264 video at 30 fps and AAC audio, remuxed without re-encoding; identical audio/video packet timestamps; MP4 with fast-start metadata",
+    "edit": "Ben's replacement with improved sync; full recording; six-panel view preserved without cropping or trimming"
   }
 ]
