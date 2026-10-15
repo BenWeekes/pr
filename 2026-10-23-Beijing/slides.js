@@ -213,7 +213,10 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all seven demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 6 minutes 23 seconds. With the current short introductions and explanation slides, the sequence is about 8 minutes 53 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all seven demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 6 minutes 23 seconds. With the current short introductions and explanation slides, the sequence is about 8 minutes 53 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation.\n\nCONTACT: the on-screen QR code opens my LinkedIn profile. Leave this slide up for the audience to scan; the URL is also clickable."
     }
-  ]
+  ],
+  "speakerPhoto": "assets/ben-weekes-profile.png",
+  "linkedinUrl": "https://www.linkedin.com/in/benjamin-weekes/",
+  "linkedinQr": "assets/ben-weekes-linkedin-qr.svg"
 };

@@ -35,6 +35,11 @@ the final slides and timings.
 The date and location come from slide 3 of the PowerPoint; update the
 folder, catalog entry, and slides.js if necessary. Pacing and media source
 details are in the presentation's run-of-show.txt and media/sources.json.
+The opening and closing use Ben's circular portrait. The closing includes
+a large LinkedIn QR code and a clickable profile URL. Edit speakerPhoto,
+linkedinUrl and linkedinQr in slides.js to change these; provenance is in
+assets/profile-sources.json. The QR is a local SVG and needs no third-party
+service when presenting.
 
 ADDING A PRESENTATION
 

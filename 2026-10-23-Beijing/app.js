@@ -67,7 +67,10 @@
     if (slide.portrait) section.classList.add("portrait-video");
     if (slide.type === "video" && slide.subtitle) section.classList.add("has-subtitle");
     section.setAttribute("aria-label", `${index + 1}. ${slide.label}`);
-    if (thumbnail) section.setAttribute("aria-hidden", "true");
+    if (thumbnail) {
+      section.setAttribute("aria-hidden", "true");
+      section.inert = true;
+    }
     if (["title", "section", "qa", "thanks"].includes(slide.type)) section.classList.add("artwork");
     if (slide.type !== "cover") section.append(image("assets/event-logo.png", "iRTE 2026 / 实时智能大会", "event-logo"));
 
@@ -80,7 +83,10 @@
         content.append(el("p", "kicker", slide.kicker), el("h1", "", slide.title));
         if (slide.subtitle) content.append(el("p", "title-subtitle", slide.subtitle));
         const speaker = el("div", "title-speaker");
-        speaker.append(el("p", "speaker-name", deck.speaker), el("p", "speaker-role", `${deck.role} · ${deck.company}`), el("p", "event-date", `${deck.date} · ${deck.location}`));
+        if (deck.speakerPhoto) speaker.append(image(deck.speakerPhoto, `${deck.speaker} portrait`, "speaker-portrait"));
+        const details = el("div", "speaker-details");
+        details.append(el("p", "speaker-name", deck.speaker), el("p", "speaker-role", `${deck.role} · ${deck.company}`), el("p", "event-date", `${deck.date} · ${deck.location}`));
+        speaker.append(details);
         section.append(content, speaker);
         break;
       }
@@ -254,12 +260,35 @@
       }
       case "thanks": {
         const content = el("div", "thanks-content");
-        content.append(el("h2", "", slide.title), el("p", "thanks-chinese", slide.subtitle), el("p", "thanks-speaker", deck.speaker), el("p", "thanks-role", `${deck.role} · ${deck.company}`));
+        content.append(el("h2", "", slide.title), el("p", "thanks-chinese", slide.subtitle));
+        const speaker = el("div", "thanks-identity");
+        if (deck.speakerPhoto) speaker.append(image(deck.speakerPhoto, `${deck.speaker} portrait`, "speaker-portrait"));
+        const details = el("div", "speaker-details");
+        details.append(el("p", "thanks-speaker", deck.speaker), el("p", "thanks-role", `${deck.role} · ${deck.company}`));
+        speaker.append(details);
+        content.append(speaker);
         const pixels = el("div", "color-pixels");
         pixels.setAttribute("aria-hidden", "true");
         for (let i = 0; i < 4; i++) pixels.append(el("span"));
         content.append(pixels);
         section.append(content);
+        if (deck.linkedinUrl && deck.linkedinQr) {
+          const contact = el("aside", "contact-panel");
+          contact.setAttribute("aria-label", "Connect with the speaker");
+          contact.append(el("h3", "contact-heading", "Connect on LinkedIn"));
+          const code = el("a", "contact-code");
+          code.href = deck.linkedinUrl;
+          code.target = "_blank";
+          code.rel = "noopener noreferrer";
+          code.setAttribute("aria-label", `Open ${deck.speaker}'s LinkedIn profile`);
+          code.append(image(deck.linkedinQr, `QR code for ${deck.speaker}'s LinkedIn profile`, "contact-qr"));
+          const link = el("a", "contact-link", deck.linkedinUrl.replace(/^https?:\/\//, "").replace(/\/$/, ""));
+          link.href = deck.linkedinUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          contact.append(code, link);
+          section.append(contact);
+        }
         break;
       }
       default:

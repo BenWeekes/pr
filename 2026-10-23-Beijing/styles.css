@@ -53,7 +53,9 @@ button svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke
 .title-content .kicker { font-size: 32px; letter-spacing: .035em; }
 .title-content h1 { margin: 38px 0 20px; font-size: 84px; letter-spacing: -.04em; line-height: 1.12; max-width: 1130px; font-weight: 750; white-space: pre-line; overflow-wrap: break-word; }
 .title-subtitle { font-size: 32px; color: #b7bfcf; margin: 0; line-height: 1.5; }
-.title-speaker { position: absolute; top: 580px; left: 92px; }
+.title-speaker { position: absolute; top: 580px; left: 92px; display: flex; align-items: flex-start; gap: 32px; }
+.speaker-portrait { display: block; width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid #625677; flex-shrink: 0; }
+.speaker-details { min-width: 0; }
 .speaker-name { font-size: 43px; font-weight: 700; color: var(--green); margin: 0 0 9px; }
 .speaker-role { color: var(--green); font-size: 28px; margin: 0; }
 .event-date { color: #9fa8b9; font-family: "iRTE CJK", ui-monospace, Consolas, monospace; font-size: 20px; margin-top: 34px; letter-spacing: .06em; }
@@ -152,8 +154,16 @@ button svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke
 .thanks-content { position: absolute; top: 192px; left: 90px; right: 90px; }
 .thanks-content h2 { font-size: 127px; line-height: 1; color: var(--green); margin: 0 0 29px; letter-spacing: -.04em; }
 .thanks-chinese { font-size: 87px; margin: 0; font-weight: 700; line-height: 1.4; }
-.thanks-speaker { color: var(--cyan); font-size: 32px; margin: 57px 0 10px; }
+.thanks-identity { display: flex; align-items: center; gap: 28px; margin-top: 48px; }
+.thanks-speaker { color: var(--cyan); font-size: 34px; margin: 0 0 10px; }
 .thanks-role { color: #a5aec1; font-size: 25px; margin: 0; }
+.contact-panel { position: absolute; top: 184px; right: 100px; width: 500px; text-align: center; }
+.contact-heading { font-size: 28px; line-height: 1.4; color: var(--cyan); margin: 0 0 20px; font-weight: 600; }
+.contact-code { display: block; width: 480px; padding: 20px; margin: 0 auto; border-radius: 12px; background: #fff; }
+.contact-code:focus-visible { outline: 4px solid var(--green); outline-offset: 6px; }
+.contact-qr { display: block; width: 440px; height: 440px; }
+.contact-link { display: inline-block; margin-top: 24px; color: #b7bfd0; font-size: 22px; line-height: 1.4; text-decoration: none; border-bottom: 1px solid #65718a; padding-bottom: 4px; }
+.contact-link:hover { color: var(--cyan); }
 .color-pixels { display: flex; gap: 12px; margin-top: 62px; }
 .color-pixels span { width: 11px; height: 11px; background: var(--green); }
 .color-pixels span:nth-child(2) { background: var(--cyan); }

@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "portrait",
+    "file": "ben-weekes-profile.png",
+    "sourceUrl": "https://drive.google.com/file/d/1A2k4uDHqaxcLjtw5eZnY_LDw-esBNpgR/view",
+    "originalFilename": "Mirrored Portrait Before Big Ben.png",
+    "originalBytes": 1958004,
+    "originalSha256": "8d9ebf064f583841c18a97341d7d41fbcdc59e40f499324534f6367ede231036"
+  },
+  {
+    "kind": "LinkedIn QR code",
+    "file": "ben-weekes-linkedin-qr.svg",
+    "sourceUrl": "https://drive.google.com/file/d/1OOIM9xaKG8NH2U609P-BRfpohNzf6ukb/view",
+    "originalFilename": "IMG_2A6516405CAB-1.jpeg",
+    "originalBytes": 213828,
+    "originalSha256": "6bd785b3d38da1b62012e753c1e7e95d6b47789be466f32667d6a97f136c83d9",
+    "encodedUrl": "https://www.linkedin.com/in/benjamin-weekes/",
+    "preparation": "Vector QR generated for the same LinkedIn profile verified in the supplied QR card; tracking query omitted; white quiet zone retained"
+  }
+]
