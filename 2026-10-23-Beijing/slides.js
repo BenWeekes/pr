@@ -212,11 +212,11 @@ window.DECK = {
       "kicker": "DEMO 08 / 09 · WORK IN PROGRESS · ENGLISH → CHINESE",
       "title": "AI commentary",
       "caption": "AI football commentary: English then Chinese",
-      "src": "media/ai-commentary.mp4",
-      "poster": "media/ai-commentary-poster.jpg",
+      "src": "media/ai-commentary-r2-5.mp4",
+      "poster": "media/ai-commentary-r2-5-poster.jpg",
       "maxDurationSeconds": 120,
-      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here is AI football commentary, first in English and then in Chinese. This is still work in progress.\n\nPress Space once: 15 seconds of English switches directly to 15 seconds of Chinese. The language label changes at the switch; the football footage and score graphics are preserved.\n\nExact requested source cuts: English 01:33–01:48, then Chinese 01:48–02:03. The picture follows the football sequence continuously across the language switch. A 60 ms audio fade smooths each excerpt end. Full five-minute originals are preserved separately.\n\nKeep this framed as work in progress. The final running order and timings remain flexible; use G to jump to another section.",
-      "durationSeconds": 30.0
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds, one continuous clip.\n\nSuggested introduction: Here is AI football commentary, first in English and then in Chinese. This is still work in progress.\n\nPress Space once: 15 seconds of English switches directly to 15 seconds of Chinese. Both show the same busy passage, so the action repeats when the language changes. The language label changes at the switch; the football picture and score graphics remain visible.\n\nSource: modelE_trialr2_5_tv. Selected source windows: English 01:30.20–01:45.20, then Chinese 01:30.20–01:45.20. These are the 15-second windows with the most detected AI speech in each language, with three complete calls and quiet edit boundaries. Voice activity is about 10.8 seconds in English and 10.5 seconds in Chinese.\n\nThe original clean AI voice stems are used at the existing voice level. Broadcast background audio, including the human English commentator and crowd, is omitted. A 60 ms audio fade smooths each excerpt end. Full source videos and clean voice stems are preserved separately.\n\nKeep this framed as work in progress. The final running order and timings remain flexible; use G to jump to another section.",
+      "durationSeconds": 30
     },
     {
       "id": "signing-avatar",

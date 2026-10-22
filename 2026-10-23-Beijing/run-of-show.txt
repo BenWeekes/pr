@@ -29,7 +29,8 @@ SEQUENCE
 10. AI card-dealing avatar — 10-second intro + 31-second excerpt; work in progress
     Exact source cut: 00:31–01:02.
 11. AI commentary — 10-second intro + 30-second bilingual reel; work in progress
-    English 01:33–01:48, then Chinese 01:48–02:03, without another click.
+    English 01:30.20–01:45.20, then Chinese 01:30.20–01:45.20 from r2_5_tv.
+    The busiest passage is shown in both languages, without another click.
 12. Signing Avatar — 10-second intro + full 2-minute 54-second video
     Broadcast footage with signing in the lower-right inset.
 13. Closing — 20 seconds
@@ -116,10 +117,16 @@ English retains the previous 00:01.20–00:16.20 excerpt from en-mux.mp4,
 1920 x 852 six-vendor grid and vendor-number labels, without cropping.
 Both use H.264/AAC at 30 fps with fast-start metadata for browser playback.
 
-AI commentary: one 30-second reel from the exact requested English
-01:33–01:48 and Chinese 01:48–02:03 excerpts. The football picture continues
-across the language switch. Language labels sit above the uncropped footage;
-a 60 ms audio fade smooths each excerpt end. H.264/AAC at the source 25 fps.
+AI commentary: one 30-second reel from modelE_trialr2_5_tv, English first,
+then Chinese. Both use 01:30.20–01:45.20: the 15-second windows with the most
+detected AI speech in each language, retaining three complete calls and
+quiet edit boundaries. Detected speech is about 10.8 seconds in English and
+10.5 seconds in Chinese. The same action repeats for the second language.
+Original clean AI voice stems retain the existing voice level; broadcast
+background audio, including human commentary and crowd, is omitted.
+Language labels sit above the uncropped footage. A 60 ms audio fade smooths
+each excerpt end. H.264/AAC at the source 25 fps. Original videos and voice
+stems are preserved separately.
 
 Card dealing: the exact requested 00:31–01:02 excerpt from bac.mov,
 31 seconds long. The full avatar, card table and game interface remain
