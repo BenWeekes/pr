@@ -23,13 +23,14 @@ maintenance/         Font helper and server-specific nginx route snippet
 
 The original RTE2026.pptx is preserved in templates/. Its dark palette,
 pixel background, conference logo, and bilingual styling are reused in
-2026-10-23-Beijing/. That deck is a 15-minute talk with an opening, seven
+2026-10-23-Beijing/. That deck is a 15-minute talk with an opening, nine
 video slots, two brief slides on early access and avatar integration,
-and a closing. All seven demo clips are included: MrBeast on Whatnot,
-GPT-Live with delegation, a bilingual avatar vendor comparison, avatar-assisted
-gaming, the RTE meets avatars demo, an AI card-dealing avatar, and
-bilingual AI football commentary. The final two demos remain marked as work
-in progress.
+and a closing. All nine demo clips are included: MrBeast on Whatnot,
+GPT-Live with delegation, a Chinese avatar comparison followed by a separate
+English TTS avatar comparison, avatar-assisted gaming, Human Driven Avatars
+for Live Broadcast, an AI card-dealing avatar,
+bilingual AI football commentary, and Signing Avatar. Card dealing and
+AI commentary remain marked as work in progress.
 The sequence is a working draft; review the visuals and flow before choosing
 the final slides and timings.
 The date and location come from slide 3 of the PowerPoint; update the

@@ -32,38 +32,32 @@
     "encoding": "H.264 video, AAC audio; MP4 with fast-start metadata"
   },
   {
-    "file": "avatar-comparison.mp4",
-    "durationSeconds": 30.0,
-    "bytes": 7231089,
-    "sha256": "189e4344f0f0ffc80be9110bae514dd85e4f4535e55874503cc1491db91c759d",
-    "encoding": "H.264 video at 30 fps, AAC audio; MP4 with fast-start metadata",
-    "edit": "15 seconds per language, English then Chinese; uncropped vendor grid with a language label above it; 60 ms audio fade at each excerpt end",
-    "segments": [
-      {
-        "language": "English",
-        "sourceUrl": "https://convoai-demo.agora.io/avatar-compare/media/en-mux.mp4",
-        "originalFilename": "en-mux.mp4",
-        "originalDurationSeconds": 21.833333,
-        "originalBytes": 4669647,
-        "originalSha256": "8bca40a507e8320b25395a7d4d498cd0c179984c70ca844b74275aed526806b7",
-        "excerptStartSeconds": 1.2,
-        "excerptEndSeconds": 16.2,
-        "outputStartSeconds": 0,
-        "outputEndSeconds": 15
-      },
-      {
-        "language": "Chinese",
-        "sourceUrl": "https://convoai-demo.agora.io/avatar-compare/media/zh-mux.mp4",
-        "originalFilename": "zh-mux.mp4",
-        "originalDurationSeconds": 29,
-        "originalBytes": 6219662,
-        "originalSha256": "cde45f8ad02dfde3a5e896fc30213b313b8bb67b1af2cc4a319ae4ea7a8116ae",
-        "excerptStartSeconds": 1.8,
-        "excerptEndSeconds": 16.8,
-        "outputStartSeconds": 15,
-        "outputEndSeconds": 30
-      }
-    ]
+    "file": "avatar-comparison-chinese.mp4",
+    "sourceUrl": "https://convoai-demo.agora.io/photo-uploads/fgrid/h2a_grid_zh_v3.mp4",
+    "originalFilename": "h2a_grid_zh_v3.mp4",
+    "originalDurationSeconds": 26.644,
+    "originalBytes": 4433338,
+    "originalSha256": "819d45050ad74bcd29fa1f4845f3b9ba598cda859a125c68d19e0201b093e0e1",
+    "durationSeconds": 26.644,
+    "encoding": "Original H.264 video at 30 fps and AAC audio, remuxed without re-encoding; identical audio/video packet timestamps; MP4 with fast-start metadata",
+    "edit": "Full Chinese recording; uncropped six-vendor grid and vendor-number labels preserved",
+    "bytes": 4433337,
+    "sha256": "51df5cd720407bae40a6543d1fd8c61ab47726acb2d915c38152534b4457b437"
+  },
+  {
+    "file": "avatar-comparison-english.mp4",
+    "sourceUrl": "https://convoai-demo.agora.io/avatar-compare/media/en-mux.mp4",
+    "originalFilename": "en-mux.mp4",
+    "originalDurationSeconds": 21.833333,
+    "originalBytes": 4669647,
+    "originalSha256": "8bca40a507e8320b25395a7d4d498cd0c179984c70ca844b74275aed526806b7",
+    "excerptStartSeconds": 1.2,
+    "excerptEndSeconds": 16.2,
+    "durationSeconds": 15.0,
+    "encoding": "H.264 video at 30 fps and AAC audio; MP4 with fast-start metadata",
+    "edit": "Existing 15-second English TTS excerpt; uncropped six-vendor grid and vendor-number labels preserved; 60 ms audio fade at excerpt end",
+    "bytes": 3882134,
+    "sha256": "cdaa07fec610606ea7d9c2b4f73547336fd98dddabfb6cc1d43182ab0e5ea1d0"
   },
   {
     "file": "ai-commentary.mp4",
@@ -115,16 +109,29 @@
     "edit": "Requested 00:31\u201301:02 excerpt; full avatar, card table and game interface preserved without cropping"
   },
   {
-    "file": "rte-meets-avatars.mp4",
-    "sourceUrl": "https://drive.google.com/file/d/1NP3HiwFYEMkEGGC0Nrn11vNmQcaPfg85/view",
-    "originalFilename": "benb_grid_final.mp4",
+    "file": "benh2a.mp4",
+    "sourceLocation": "/home/ubuntu/benh2a.mp4",
+    "originalFilename": "benh2a.mp4",
     "originalDurationSeconds": 39.615,
-    "originalBytes": 30341916,
-    "originalSha256": "a2477dd97765b318d6956e4b24d52e21ff950c9617de9732b81c551e5c58e55c",
+    "originalBytes": 31848794,
+    "originalSha256": "66d4ad9de171dd0e0a5780696a056ce6b402ed060218ea0402c8543fdb017541",
     "durationSeconds": 39.615,
-    "bytes": 30341911,
-    "sha256": "80055521311741c9d203057b845f220eac5268181bceabd3f1a2a5b9e0bc08eb",
+    "bytes": 31848789,
+    "sha256": "d1dcc854a6dbdbc1eaebaf9c30aa5ab475bab3fb3d138018d2a2ad18dd5c0a9b",
     "encoding": "Original H.264 video at 30 fps and AAC audio, remuxed without re-encoding; identical audio/video packet timestamps; MP4 with fast-start metadata",
-    "edit": "Ben's replacement with improved sync; full recording; six-panel view preserved without cropping or trimming"
+    "edit": "Full recording; six-panel view preserved without cropping or trimming"
+  },
+  {
+    "file": "al_asl.mp4",
+    "sourceLocation": "/home/ubuntu/al_asl.mp4",
+    "originalFilename": "al_asl.mp4",
+    "originalDurationSeconds": 174.451519,
+    "originalBytes": 13955760,
+    "originalSha256": "ddb0715d9320e3229b55ea780a0652bd1486239a261fd99075c204e0b1d74a1c",
+    "durationSeconds": 174.451519,
+    "bytes": 13955734,
+    "sha256": "bb47b7b555cd34aeb2d8274babb6f0040881caa0c5cdd64600d4d35063bdb46f",
+    "encoding": "Original H.264 video at 25 fps and AAC audio, remuxed without re-encoding; identical audio/video packet timestamps; MP4 with fast-start metadata",
+    "edit": "Full recording; broadcast picture, captions and signing inset preserved without cropping or trimming"
   }
 ]

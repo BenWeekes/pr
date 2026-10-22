@@ -7,10 +7,10 @@ window.PRESENTATIONS = [
     "event": "iRTE 2026",
     "title": "What's New This Year in RTE and Conversational AI - Global Market",
     "status": "In preparation",
-    "slideCount": 11,
+    "slideCount": 13,
     "durationMinutes": 15,
-    "videoCount": 7,
-    "videosReady": 7,
+    "videoCount": 9,
+    "videosReady": 9,
     "thumbnail": "2026-10-23-Beijing/assets/event-logo.png"
   }
 ];

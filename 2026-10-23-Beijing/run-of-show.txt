@@ -18,32 +18,36 @@ SEQUENCE
 4. GPT-Live: full duplex & delegation — 10-second intro + supplied 2-minute clip
 5. Generic Avatar Protocol — 20 seconds
    ConvoAI speech → avatar provider → audio + video in an Agora channel.
-6. Avatars & vendor comparison — 10-second intro + 30-second bilingual reel
-   15 seconds of English, then 15 seconds of Chinese, without another click.
-7. Avatar-assisted gaming — 10-second intro + supplied excerpt, about 2 minutes
+6. Avatar comparison: Chinese — 10-second intro + full 27-second video
+   New h2a_grid_zh_v3.mp4 recording, with all six vendor panels visible.
+7. Avatar comparison: English TTS — 10-second intro + existing 15-second excerpt
+   English only, on its own slide directly after the Chinese comparison.
+8. Avatar-assisted gaming — 10-second intro + supplied excerpt, about 2 minutes
    An interactive, voice controlled game hosted by an avatar on Agora ConvoAI.
-8. RTE meets avatars — 10-second intro + full 40-second video
+9. Human Driven Avatars for Live Broadcast — 10-second intro + full 40-second video
    Human video alongside realistic and animated avatars, shown in six panels.
-9. AI card-dealing avatar — 10-second intro + 31-second excerpt; work in progress
-   Exact source cut: 00:31–01:02.
-10. AI commentary — 10-second intro + 30-second bilingual reel; work in progress
+10. AI card-dealing avatar — 10-second intro + 31-second excerpt; work in progress
+    Exact source cut: 00:31–01:02.
+11. AI commentary — 10-second intro + 30-second bilingual reel; work in progress
     English 01:33–01:48, then Chinese 01:48–02:03, without another click.
-11. Closing — 20 seconds
+12. Signing Avatar — 10-second intro + full 2-minute 54-second video
+    Broadcast footage with signing in the lower-right inset.
+13. Closing — 20 seconds
 
 DRAFT TIMING
 
 Target: 15 minutes. These timings are estimates, not a fixed running order.
-All seven demo clips are ready.
-Video time: about 6 minutes 23 seconds.
+All nine demo clips are ready.
+Video time: about 9 minutes 29 seconds.
 Opening + closing: 40 seconds.
 Early-access + protocol explanations: 40 seconds.
-Seven video introductions at 10 seconds each: 70 seconds.
-Current sequence: about 8 minutes 53 seconds.
+Nine video introductions at 10 seconds each: 90 seconds.
+Current sequence: about 12 minutes 19 seconds.
 Finalize the speaking time and slide selection after reviewing the demos.
 
 DEMO STATUS
 
-All seven video slots are filled. Card-dealing avatars and AI commentary
+All nine video slots are filled. Card-dealing avatars and AI commentary
 remain marked as work in progress. Review the complete sequence before
 choosing the final slide selection and speaking time.
 
@@ -91,17 +95,26 @@ Gaming: excerpt from 00:19.35 to the end of quiz-wheel.mov (2:19 original).
 The cut starts in a speech pause and retains the game interaction and score.
 The gaming excerpt uses H.264/AAC at its original resolution, at 30 fps.
 
-RTE meets avatars: the full benb_grid_final.mp4 recording, about 40 seconds,
-using Ben's replacement with improved sync.
+Human Driven Avatars for Live Broadcast: the full benh2a.mp4 recording,
+about 40 seconds.
 All six panels remain visible at the original 1620 x 1080 resolution.
 The original H.264 video at 30 fps and AAC audio are remuxed without
 re-encoding, with identical audio/video packet timestamps and fast-start
 metadata for browser playback.
 
-Vendor comparison: one 30-second reel made from English 00:01.20–00:16.20
-and Chinese 00:01.80–00:16.80. It retains the opening speech and full vendor
-grid, with language labels above it. No extra click is needed at the 15-second
-switch. H.264/AAC at 30 fps; a 60 ms audio fade smooths each excerpt end.
+Signing Avatar: the full al_asl.mp4 recording, about 2 minutes 54 seconds.
+The broadcast picture, captions and signing inset remain visible, without
+cropping or trimming, at the original 640 x 360 resolution. Original H.264
+video at 25 fps and AAC audio are remuxed without re-encoding, with identical
+audio/video packet timestamps and fast-start metadata for browser playback.
+
+Vendor comparison: two separate slides, Chinese first and English TTS second.
+Chinese uses the full h2a_grid_zh_v3.mp4 recording, about 27 seconds, with
+original H.264/AAC and audio/video packet timestamps preserved by remuxing.
+English retains the previous 00:01.20–00:16.20 excerpt from en-mux.mp4,
+15 seconds long, with a 60 ms audio fade at the end. Both keep the full
+1920 x 852 six-vendor grid and vendor-number labels, without cropping.
+Both use H.264/AAC at 30 fps with fast-start metadata for browser playback.
 
 AI commentary: one 30-second reel from the exact requested English
 01:33–01:48 and Chinese 01:48–02:03 excerpts. The football picture continues
@@ -113,7 +126,7 @@ Card dealing: the exact requested 00:31–01:02 excerpt from bac.mov,
 visible. Encoded at the original 1920 x 1268 resolution, at 30 fps with
 H.264 video and AAC audio; the full original is preserved separately.
 
-All seven demo clips are hosted locally, with audio and native controls.
+All nine demo clips are hosted locally, with audio and native controls.
 Presenting does not require opening Drive or the original demo site. Original files
 are preserved outside the public checkout in:
     /home/ubuntu/pr-original-media/2026-10-23-Beijing/
