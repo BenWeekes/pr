@@ -145,9 +145,9 @@ window.DECK = {
     {
       "id": "avatar-comparison-chinese",
       "type": "video",
-      "label": "Avatar comparison: Chinese",
+      "label": "Avatar comparison: Human ZH",
       "kicker": "DEMO 03 / 09 · AVATAR COMPARISON · CHINESE",
-      "title": "Avatar comparison: Chinese",
+      "title": "Avatar comparison: Human ZH",
       "caption": "Six avatar vendors: Chinese",
       "src": "media/avatar-comparison-chinese.mp4",
       "poster": "media/avatar-comparison-chinese-poster.jpg",

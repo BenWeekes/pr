@@ -18,7 +18,7 @@ SEQUENCE
 4. GPT-Live: full duplex & delegation — 10-second intro + supplied 2-minute clip
 5. Generic Avatar Protocol — 20 seconds
    ConvoAI speech → avatar provider → audio + video in an Agora channel.
-6. Avatar comparison: Chinese — 10-second intro + full 27-second video
+6. Avatar comparison: Human ZH — 10-second intro + full 27-second video
    New h2a_grid_zh_v3.mp4 recording, with all six vendor panels visible.
 7. Avatar comparison: English TTS — 10-second intro + existing 15-second excerpt
    English only, on its own slide directly after the Chinese comparison.
