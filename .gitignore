@@ -9,3 +9,4 @@ node_modules/
 !.env.example
 .cache/
 *.log
+/*/media/*-offline.zip

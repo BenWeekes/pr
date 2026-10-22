@@ -61,6 +61,23 @@ when adding a folder that follows the naming convention. A GitHub push
 stores the source; changes made on GitHub must be pulled to this server
 to update the live site. No automatic GitHub deployment is configured.
 
+OFFLINE COPY
+
+Build a ZIP of a deck, its referenced videos, images and fonts:
+    python3 maintenance/build-offline.py 2026-10-23-Beijing
+
+The command writes a downloadable snapshot to:
+    2026-10-23-Beijing/media/2026-10-23-Beijing-offline.zip
+    https://sa-dev.agora.io/pr/2026-10-23-Beijing/media/2026-10-23-Beijing-offline.zip
+
+Copy the ZIP to the presentation computer, extract the entire folder,
+then open index.html in Chrome or Edge. No installation, server or
+internet is needed for the slides, videos or fonts. Keyboard controls
+work as on the hosted deck. The ZIP includes README-OFFLINE.txt.
+The offline copy opens directly in the deck, with its library link omitted.
+Rebuild and re-download after changing the presentation. Generated ZIPs
+are kept out of Git; the build script and original assets are tracked.
+
 EDITING A DECK
 
 Edit YYYY-MM-DD-Location/slides.js to change the title, speaker details,
