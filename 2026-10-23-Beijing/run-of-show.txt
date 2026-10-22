@@ -31,7 +31,7 @@ SEQUENCE
 11. AI commentary — 10-second intro + 30-second bilingual reel; work in progress
     English 01:30.20–01:45.20, then Chinese 01:30.20–01:45.20 from r2_5_tv.
     The busiest passage is shown in both languages, without another click.
-12. Signing Avatar — 10-second intro + full 2-minute 54-second video
+12. Signing Avatar — 10-second intro + first 30 seconds of the video
     Broadcast footage with signing in the lower-right inset.
 13. Closing — 20 seconds
 
@@ -39,11 +39,11 @@ DRAFT TIMING
 
 Target: 15 minutes. These timings are estimates, not a fixed running order.
 All nine demo clips are ready.
-Video time: about 9 minutes 29 seconds.
+Video time: about 7 minutes 5 seconds.
 Opening + closing: 40 seconds.
 Early-access + protocol explanations: 40 seconds.
 Nine video introductions at 10 seconds each: 90 seconds.
-Current sequence: about 12 minutes 19 seconds.
+Current sequence: about 9 minutes 55 seconds.
 Finalize the speaking time and slide selection after reviewing the demos.
 
 DEMO STATUS
@@ -103,11 +103,12 @@ The original H.264 video at 30 fps and AAC audio are remuxed without
 re-encoding, with identical audio/video packet timestamps and fast-start
 metadata for browser playback.
 
-Signing Avatar: the full al_asl.mp4 recording, about 2 minutes 54 seconds.
-The broadcast picture, captions and signing inset remain visible, without
-cropping or trimming, at the original 640 x 360 resolution. Original H.264
-video at 25 fps and AAC audio are remuxed without re-encoding, with identical
-audio/video packet timestamps and fast-start metadata for browser playback.
+Signing Avatar: the first 00:00–00:30 of al_asl.mp4. The rest of the recording
+is removed from the presentation clip. The broadcast picture, captions and
+signing inset remain visible, without cropping, at the original 640 x 360
+resolution and 25 fps. Encoded as H.264 with stereo AAC audio and fast-start
+metadata. A 60 ms audio fade smooths the cut. The full original is preserved
+separately.
 
 Vendor comparison: two separate slides, Chinese first and English TTS second.
 Chinese uses the full h2a_grid_zh_v3.mp4 recording, about 27 seconds, with

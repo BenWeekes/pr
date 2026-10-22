@@ -141,10 +141,12 @@
     "originalDurationSeconds": 174.451519,
     "originalBytes": 13955760,
     "originalSha256": "ddb0715d9320e3229b55ea780a0652bd1486239a261fd99075c204e0b1d74a1c",
-    "durationSeconds": 174.451519,
-    "bytes": 13955734,
-    "sha256": "bb47b7b555cd34aeb2d8274babb6f0040881caa0c5cdd64600d4d35063bdb46f",
-    "encoding": "Original H.264 video at 25 fps and AAC audio, remuxed without re-encoding; identical audio/video packet timestamps; MP4 with fast-start metadata",
-    "edit": "Full recording; broadcast picture, captions and signing inset preserved without cropping or trimming"
+    "durationSeconds": 30,
+    "bytes": 2929714,
+    "sha256": "6ce59cce6e141abb74e89760658be94b6dafe0c57f6ed47c0c3d29732d335024",
+    "encoding": "H.264 video at 25 fps, CRF 16; stereo AAC audio at 44.1 kHz, 128 kbps; MP4 with fast-start metadata",
+    "edit": "Requested first 00:00\u201300:30 only; full broadcast picture, captions and signing inset preserved without cropping; 60 ms audio fade at the cut",
+    "excerptStartSeconds": 0,
+    "excerptEndSeconds": 30
   }
 ]

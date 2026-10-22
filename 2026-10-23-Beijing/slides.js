@@ -227,8 +227,8 @@ window.DECK = {
       "caption": "Signing Avatar",
       "src": "media/al_asl.mp4",
       "poster": "media/al_asl-poster.jpg",
-      "durationSeconds": 174.451519,
-      "notes": "INTRO — about 10 seconds. VIDEO — about 2 minutes 54 seconds.\n\nSuggested introduction: Here is a signing avatar alongside broadcast footage. Watch the signing in the lower-right inset.\n\nThe full al_asl.mp4 recording is included, without cropping or trimming. The broadcast picture, captions and signing inset remain visible. Original H.264 video at 25 fps and AAC audio are preserved without re-encoding, with identical audio/video packet timestamps and fast-start metadata for browser playback. The original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible."
+      "durationSeconds": 30,
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds.\n\nSuggested introduction: Here is a signing avatar alongside broadcast footage. Watch the signing in the lower-right inset.\n\nRequested excerpt: the first 00:00–00:30 of al_asl.mp4. The rest of the recording has been removed from the presentation clip. The full broadcast picture, captions and signing inset remain visible without cropping. H.264 at the original 640 x 360 resolution and 25 fps, with stereo AAC audio. A 60 ms audio fade smooths the cut. The full original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible."
     },
     {
       "id": "thanks",
@@ -236,7 +236,7 @@ window.DECK = {
       "label": "Closing",
       "title": "Thanks",
       "subtitle": "谢谢参与",
-      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all nine demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 9 minutes 29 seconds. With the current short introductions and explanation slides, the sequence is about 12 minutes 19 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation.\n\nCONTACT: the on-screen QR code opens my LinkedIn profile. Leave this slide up for the audience to scan; the URL is also clickable."
+      "notes": "CLOSING — 20 seconds.\n\nSuggested close: That is our snapshot of the global market: real-time video at scale, early-access conversational AI, and a common path to avatar vendors. The next step is bringing these experiences together naturally. Thank you.\n\nPacing: all nine demo clips are ready. Treat the sequence and timings as a working draft. Review the visuals and demo flow first; the final slide selection can change later. Videos total about 7 minutes 5 seconds. With the current short introductions and explanation slides, the sequence is about 9 minutes 55 seconds. There is room for more context and transitions within the 15-minute target. Use G to jump past any section during the presentation.\n\nCONTACT: the on-screen QR code opens my LinkedIn profile. Leave this slide up for the audience to scan; the URL is also clickable."
     }
   ],
   "speakerPhoto": "assets/ben-weekes-profile.png",
