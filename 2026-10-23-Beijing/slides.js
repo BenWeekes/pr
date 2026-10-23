@@ -152,7 +152,7 @@ window.DECK = {
       "src": "media/avatar-comparison-chinese.mp4",
       "poster": "media/avatar-comparison-chinese-poster.jpg",
       "durationSeconds": 26.644,
-      "notes": "INTRO — about 10 seconds. VIDEO — about 27 seconds.\n\nSuggested introduction: First, here are six avatar vendors side by side in Chinese. Watch the lip sync, expression and motion.\n\nThe full h2a_grid_zh_v3.mp4 recording is included, without cropping or trimming. All six panels and their vendor-number labels remain visible. Original H.264 video and AAC audio are preserved without re-encoding, with identical audio/video packet timestamps and fast-start metadata. The original recording is preserved separately.\n\nPress Space to play or pause. The next slide is the English TTS comparison; use Right to advance. No vendor rankings or measured latency claims are added."
+      "notes": "INTRO — about 10 seconds. VIDEO — about 27 seconds.\n\nSuggested introduction: First, here are six avatar vendors side by side in Chinese. Watch the lip sync, expression and motion.\n\nThe full h2a_grid_zh_v3.mp4 recording is included, without cropping or trimming. All six panels and their vendor-number labels remain visible. Original H.264 video and AAC audio are preserved without re-encoding, with identical audio/video packet timestamps and fast-start metadata. The original recording is preserved separately.\n\nPress Space to play or pause. The next slide is the English TTS comparison; use Down to advance. No vendor rankings or measured latency claims are added."
     },
     {
       "id": "avatar-comparison-english",
@@ -164,7 +164,7 @@ window.DECK = {
       "src": "media/avatar-comparison-english.mp4",
       "poster": "media/avatar-comparison-english-poster.jpg",
       "durationSeconds": 15.0,
-      "notes": "INTRO — about 10 seconds. VIDEO — 15 seconds.\n\nSuggested introduction: Now the English TTS comparison, with the six avatar vendors side by side. Watch the lip sync, expression and motion.\n\nThis retains the existing English source excerpt: 00:01.20–00:16.20 from en-mux.mp4. The full vendor grid and Vendor 1–6 labels remain visible. A 60 ms audio fade smooths the excerpt end. The full original is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. This is a separate English-only clip, immediately after the Chinese comparison. No vendor rankings or measured latency claims are added."
+      "notes": "INTRO — about 10 seconds. VIDEO — 15 seconds.\n\nSuggested introduction: Now the English TTS comparison, with the six avatar vendors side by side. Watch the lip sync, expression and motion.\n\nThis retains the existing English source excerpt: 00:01.20–00:16.20 from en-mux.mp4. The full vendor grid and Vendor 1–6 labels remain visible. A 60 ms audio fade smooths the excerpt end. The full original is preserved separately.\n\nPress Space to play or pause; Up/Down change slides. This is a separate English-only clip, immediately after the Chinese comparison. No vendor rankings or measured latency claims are added."
     },
     {
       "id": "avatar-gaming",
@@ -189,7 +189,7 @@ window.DECK = {
       "caption": "Human Driven Avatars for Live Broadcast",
       "src": "media/benh2a.mp4",
       "poster": "media/benh2a-poster.jpg",
-      "notes": "INTRO — about 10 seconds. VIDEO — about 40 seconds.\n\nSuggested introduction: Human-driven avatars for live broadcast. Watch how the human performance carries through to realistic and animated avatars across the grid.\n\nThe full benh2a.mp4 recording is included. All six panels stay visible, without cropping or trimming. Original H.264 video and AAC audio are preserved without re-encoding, with identical audio/video packet timestamps and fast-start metadata for browser playback. The original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible.",
+      "notes": "INTRO — about 10 seconds. VIDEO — about 40 seconds.\n\nSuggested introduction: Human-driven avatars for live broadcast. Watch how the human performance carries through to realistic and animated avatars across the grid.\n\nThe full benh2a.mp4 recording is included. All six panels stay visible, without cropping or trimming. Original H.264 video and AAC audio are preserved without re-encoding, with identical audio/video packet timestamps and fast-start metadata for browser playback. The original recording is preserved separately.\n\nPress Space to play or pause; Up/Down change slides. The final running order and timings remain flexible.",
       "durationSeconds": 39.615
     },
     {
@@ -228,7 +228,7 @@ window.DECK = {
       "src": "media/al_asl.mp4",
       "poster": "media/al_asl-poster.jpg",
       "durationSeconds": 30,
-      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds.\n\nSuggested introduction: Here is a signing avatar alongside broadcast footage. Watch the signing in the lower-right inset.\n\nRequested excerpt: the first 00:00–00:30 of al_asl.mp4. The rest of the recording has been removed from the presentation clip. The full broadcast picture, captions and signing inset remain visible without cropping. H.264 at the original 640 x 360 resolution and 25 fps, with stereo AAC audio. A 60 ms audio fade smooths the cut. The full original recording is preserved separately.\n\nPress Space to play or pause; Left/Right change slides. The final running order and timings remain flexible."
+      "notes": "INTRO — about 10 seconds. VIDEO — 30 seconds.\n\nSuggested introduction: Here is a signing avatar alongside broadcast footage. Watch the signing in the lower-right inset.\n\nRequested excerpt: the first 00:00–00:30 of al_asl.mp4. The rest of the recording has been removed from the presentation clip. The full broadcast picture, captions and signing inset remain visible without cropping. H.264 at the original 640 x 360 resolution and 25 fps, with stereo AAC audio. A 60 ms audio fade smooths the cut. The full original recording is preserved separately.\n\nPress Space to play or pause; Up/Down change slides. The final running order and timings remain flexible."
     },
     {
       "id": "thanks",

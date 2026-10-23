@@ -107,7 +107,7 @@ presentation folder, so the whole folder can be copied or downloaded.
 
 CONTROLS
 
-Left / Right arrows or Page Up / Page Down: previous or next slide
+Up / Down arrows or Page Up / Page Down: previous or next slide
 Space: play / pause the current slide's video; no action on other slides
 Home / End: first / last slide
 F: full screen (or use the Present button)

@@ -57,7 +57,8 @@ OFFLINE PRESENTATION
    Do not open index.html while it is still inside the ZIP.
 4. Click Present, or press F, for full screen.
 
-Left / Right: previous / next slide
+Up / Down: previous / next slide (presenter remote)
+Page Up / Page Down: previous / next slide (also supported)
 Space: play / pause the current video; selecting the video is unnecessary
 G: slide overview; choose a slide to jump to it
 N: speaker notes

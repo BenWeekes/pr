@@ -2,7 +2,8 @@ What's New This Year in RTE and Conversational AI - Global Market
 Ben Weekes — Chief Architect, Agora — iRTE 2026
 
 Format: mostly demo videos, with two short explanations to connect the story.
-Playback is manual. Use Space to play/pause and Left/Right to change slides.
+Playback is manual. Use Space to play/pause and Up/Down to change slides.
+Presenter remotes sending Page Up/Page Down are also supported.
 The video does not need focus. K is also available for play/pause.
 Suggested introductions are in Notes (N).
 The sequence is a working draft: review the visuals and flow first, then

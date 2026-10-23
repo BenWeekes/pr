@@ -450,12 +450,12 @@
       return;
     }
     // Presentation shortcuts work regardless of focus, including native video controls.
-    if (!["arrowright", "pagedown", "arrowleft", "pageup", "home", "end", "f", "g", "n", "?", "b", " ", "k"].includes(key)) return;
+    if (!["arrowdown", "pagedown", "arrowup", "pageup", "home", "end", "f", "g", "n", "?", "b", " ", "k"].includes(key)) return;
     event.preventDefault();
     event.stopPropagation();
     switch (key) {
-      case "arrowright": case "pagedown": goTo(current + 1); break;
-      case "arrowleft": case "pageup": goTo(current - 1); break;
+      case "arrowdown": case "pagedown": goTo(current + 1); break;
+      case "arrowup": case "pageup": goTo(current - 1); break;
       case "home": goTo(0); break;
       case "end": goTo(slides.length - 1); break;
       case "f": fullscreen(); break;
